@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerMovement))]
 public class PlayerController : MonoBehaviour
 {
+    // Hung da o day
     private PlayerInputHandler input;
     private PlayerMovement movement;
 
