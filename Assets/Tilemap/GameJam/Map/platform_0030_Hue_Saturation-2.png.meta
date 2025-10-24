@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: c505bf10b409e834a8c5308a3808b86f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 995999498899298437
+    second: platform_0030_Hue_Saturation-2_0
+  - first:
+      213: -4509634061409197754
+    second: platform_0030_Hue_Saturation-2_1
+  - first:
+      213: 3642925909245266848
+    second: platform_0030_Hue_Saturation-2_2
+  - first:
+      213: 4048840037163650320
+    second: platform_0030_Hue_Saturation-2_3
+  - first:
+      213: 4161143955768202999
+    second: platform_0030_Hue_Saturation-2_4
+  - first:
+      213: -585939231241286561
+    second: platform_0030_Hue_Saturation-2_5
+  - first:
+      213: 3632692726104305689
+    second: platform_0030_Hue_Saturation-2_6
+  - first:
+      213: 3583847319526546047
+    second: platform_0030_Hue_Saturation-2_7
+  - first:
+      213: 1565335345046281442
+    second: platform_0030_Hue_Saturation-2_8
+  - first:
+      213: 2063428319623146220
+    second: platform_0030_Hue_Saturation-2_9
+  - first:
+      213: 6893096234391762348
+    second: platform_0030_Hue_Saturation-2_10
+  - first:
+      213: 8546626871159327247
+    second: platform_0030_Hue_Saturation-2_11
+  - first:
+      213: 3197344382052451180
+    second: platform_0030_Hue_Saturation-2_12
+  - first:
+      213: -1888474992477982410
+    second: platform_0030_Hue_Saturation-2_13
+  - first:
+      213: 5068889591816200041
+    second: platform_0030_Hue_Saturation-2_14
+  - first:
+      213: -8412794312741156984
+    second: platform_0030_Hue_Saturation-2_15
+  - first:
+      213: -7557451887071991566
+    second: platform_0030_Hue_Saturation-2_16
+  - first:
+      213: -1347782333642133760
+    second: platform_0030_Hue_Saturation-2_17
+  - first:
+      213: -2600311015458100069
+    second: platform_0030_Hue_Saturation-2_18
+  - first:
+      213: -4172598338520764061
+    second: platform_0030_Hue_Saturation-2_19
+  - first:
+      213: -1035170880003212149
+    second: platform_0030_Hue_Saturation-2_20
+  - first:
+      213: 7649171362120707147
+    second: platform_0030_Hue_Saturation-2_21
+  - first:
+      213: 8866213674200494234
+    second: platform_0030_Hue_Saturation-2_22
+  - first:
+      213: 8336576344445482147
+    second: platform_0030_Hue_Saturation-2_23
+  - first:
+      213: -8029263975205853232
+    second: platform_0030_Hue_Saturation-2_24
+  - first:
+      213: -8994185017939531174
+    second: platform_0030_Hue_Saturation-2_25
+  - first:
+      213: -4250498760608689168
+    second: platform_0030_Hue_Saturation-2_26
+  - first:
+      213: 565080845503813129
+    second: platform_0030_Hue_Saturation-2_27
+  - first:
+      213: -4123960324320077027
+    second: platform_0030_Hue_Saturation-2_28
+  - first:
+      213: 1562537644668049730
+    second: platform_0030_Hue_Saturation-2_29
+  - first:
+      213: 2796403686387109776
+    second: platform_0030_Hue_Saturation-2_30
+  - first:
+      213: -1696923284928508002
+    second: platform_0030_Hue_Saturation-2_31
+  - first:
+      213: 6869059729169052325
+    second: platform_0030_Hue_Saturation-2_32
+  - first:
+      213: -3972580976554119051
+    second: platform_0030_Hue_Saturation-2_33
+  - first:
+      213: -2719008553845435515
+    second: platform_0030_Hue_Saturation-2_34
+  - first:
+      213: -4130423714660166244
+    second: platform_0030_Hue_Saturation-2_35
+  - first:
+      213: 4992209795077520412
+    second: platform_0030_Hue_Saturation-2_36
+  - first:
+      213: -4810486795189634104
+    second: platform_0030_Hue_Saturation-2_37
+  - first:
+      213: -5528976907269373311
+    second: platform_0030_Hue_Saturation-2_38
+  - first:
+      213: 1684929561915109326
+    second: platform_0030_Hue_Saturation-2_39
+  - first:
+      213: -5000420853920750797
+    second: platform_0030_Hue_Saturation-2_40
+  - first:
+      213: 846673243321067283
+    second: platform_0030_Hue_Saturation-2_41
+  - first:
+      213: 6585343039951218074
+    second: platform_0030_Hue_Saturation-2_42
+  - first:
+      213: 2470076030592684436
+    second: platform_0030_Hue_Saturation-2_43
+  - first:
+      213: 4674052093254118687
+    second: platform_0030_Hue_Saturation-2_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_0
+      rect:
+        serializedVersion: 2
+        x: 6589
+        y: 9711
+        width: 8660
+        height: 7249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5881c58644082dd00800000000000000
+      internalID: 995999498899298437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_1
+      rect:
+        serializedVersion: 2
+        x: 24401
+        y: 14199
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e3b6d6bf8a61c0800000000000000
+      internalID: -4509634061409197754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_2
+      rect:
+        serializedVersion: 2
+        x: 24216
+        y: 14150
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab81ab30d54e8230800000000000000
+      internalID: 3642925909245266848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_3
+      rect:
+        serializedVersion: 2
+        x: 24377
+        y: 14162
+        width: 75
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dc487ef8e503830800000000000000
+      internalID: 4048840037163650320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_4
+      rect:
+        serializedVersion: 2
+        x: 24217
+        y: 14113
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6d3de816a5fb930800000000000000
+      internalID: 4161143955768202999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_5
+      rect:
+        serializedVersion: 2
+        x: 24303
+        y: 14015
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cc5e5af535ed7f0800000000000000
+      internalID: -585939231241286561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_6
+      rect:
+        serializedVersion: 2
+        x: 24193
+        y: 13966
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910b79d99cae96230800000000000000
+      internalID: 3632692726104305689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_7
+      rect:
+        serializedVersion: 2
+        x: 24168
+        y: 13893
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9d9926226cb130800000000000000
+      internalID: 3583847319526546047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_8
+      rect:
+        serializedVersion: 2
+        x: 24401
+        y: 13820
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecd8dbe33039b510800000000000000
+      internalID: 1565335345046281442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_9
+      rect:
+        serializedVersion: 2
+        x: 24242
+        y: 13770
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea6e9acf15c2ac10800000000000000
+      internalID: 2063428319623146220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 13648
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5f085018239af50800000000000000
+      internalID: 6893096234391762348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_11
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13673
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a824b7bd7bb9670800000000000000
+      internalID: 8546626871159327247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 13672
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63c3d476cf3f5c20800000000000000
+      internalID: 3197344382052451180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_13
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 13660
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631342afff9cac5e0800000000000000
+      internalID: -1888474992477982410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_14
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 13647
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f11e54a30585640800000000000000
+      internalID: 5068889591816200041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13636
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88703ac3520cf3b80800000000000000
+      internalID: -8412794312741156984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13647
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8e7ffbc898e1790800000000000000
+      internalID: -7557451887071991566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_17
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 13624
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fa6b0cb17bb4de0800000000000000
+      internalID: -1347782333642133760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_18
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 13647
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ca51298e6d9ebd0800000000000000
+      internalID: -2600311015458100069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 13635
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361b5122be3f716c0800000000000000
+      internalID: -4172598338520764061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 13561
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c7497b19552a1f0800000000000000
+      internalID: -1035170880003212149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_21
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 13586
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cab49a3d0572a60800000000000000
+      internalID: 7649171362120707147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 13561
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a907e698c5e1b0b70800000000000000
+      internalID: 8866213674200494234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_23
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 13549
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4f895240871b370800000000000000
+      internalID: 8336576344445482147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_24
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 13500
+        width: 125
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7a30694f2529090800000000000000
+      internalID: -8029263975205853232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_25
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 13439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ae291216c3e2380800000000000000
+      internalID: -8994185017939531174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_26
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 13439
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f35ea7b5e13305c0800000000000000
+      internalID: -4250498760608689168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_27
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 13451
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906d1a9f80297d700800000000000000
+      internalID: 565080845503813129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_28
+      rect:
+        serializedVersion: 2
+        x: 24413
+        y: 13439
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bd8194fefb4c6c0800000000000000
+      internalID: -4123960324320077027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_29
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 13403
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2495d9a85bf3fa510800000000000000
+      internalID: 1562537644668049730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_30
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 13377
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f42b73652dec620800000000000000
+      internalID: 2796403686387109776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_31
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 13353
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f4fb653415378e0800000000000000
+      internalID: -1696923284928508002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_32
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 13353
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2ff0a0e6dc35f50800000000000000
+      internalID: 6869059729169052325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_33
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 13342
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570740346ae8ed8c0800000000000000
+      internalID: -3972580976554119051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_34
+      rect:
+        serializedVersion: 2
+        x: 24303
+        y: 13206
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5835bce4024244ad0800000000000000
+      internalID: -2719008553845435515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_35
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 13157
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d4d3f389cda6c0800000000000000
+      internalID: -4130423714660166244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_36
+      rect:
+        serializedVersion: 2
+        x: 24229
+        y: 12876
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c32d7db54e74540800000000000000
+      internalID: 4992209795077520412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_37
+      rect:
+        serializedVersion: 2
+        x: 24389
+        y: 12347
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbb3003fb7bd3db0800000000000000
+      internalID: -4810486795189634104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_38
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 11575
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1820fdeebc02543b0800000000000000
+      internalID: -5528976907269373311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_39
+      rect:
+        serializedVersion: 2
+        x: 10973
+        y: 9699
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf21896282126710800000000000000
+      internalID: 1684929561915109326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_40
+      rect:
+        serializedVersion: 2
+        x: 11096
+        y: 9699
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333299a0abfea9ab0800000000000000
+      internalID: -5000420853920750797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_41
+      rect:
+        serializedVersion: 2
+        x: 11194
+        y: 9687
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317eaf434dcffbb00800000000000000
+      internalID: 846673243321067283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_42
+      rect:
+        serializedVersion: 2
+        x: 11096
+        y: 9626
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95226caa96d36b50800000000000000
+      internalID: 6585343039951218074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_43
+      rect:
+        serializedVersion: 2
+        x: 24659
+        y: 123
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4911fa31019774220800000000000000
+      internalID: 2470076030592684436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform_0030_Hue_Saturation-2_44
+      rect:
+        serializedVersion: 2
+        x: 24659
+        y: 0
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d25185d919dd040800000000000000
+      internalID: 4674052093254118687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      platform_0030_Hue_Saturation-2_0: 995999498899298437
+      platform_0030_Hue_Saturation-2_1: -4509634061409197754
+      platform_0030_Hue_Saturation-2_10: 6893096234391762348
+      platform_0030_Hue_Saturation-2_11: 8546626871159327247
+      platform_0030_Hue_Saturation-2_12: 3197344382052451180
+      platform_0030_Hue_Saturation-2_13: -1888474992477982410
+      platform_0030_Hue_Saturation-2_14: 5068889591816200041
+      platform_0030_Hue_Saturation-2_15: -8412794312741156984
+      platform_0030_Hue_Saturation-2_16: -7557451887071991566
+      platform_0030_Hue_Saturation-2_17: -1347782333642133760
+      platform_0030_Hue_Saturation-2_18: -2600311015458100069
+      platform_0030_Hue_Saturation-2_19: -4172598338520764061
+      platform_0030_Hue_Saturation-2_2: 3642925909245266848
+      platform_0030_Hue_Saturation-2_20: -1035170880003212149
+      platform_0030_Hue_Saturation-2_21: 7649171362120707147
+      platform_0030_Hue_Saturation-2_22: 8866213674200494234
+      platform_0030_Hue_Saturation-2_23: 8336576344445482147
+      platform_0030_Hue_Saturation-2_24: -8029263975205853232
+      platform_0030_Hue_Saturation-2_25: -8994185017939531174
+      platform_0030_Hue_Saturation-2_26: -4250498760608689168
+      platform_0030_Hue_Saturation-2_27: 565080845503813129
+      platform_0030_Hue_Saturation-2_28: -4123960324320077027
+      platform_0030_Hue_Saturation-2_29: 1562537644668049730
+      platform_0030_Hue_Saturation-2_3: 4048840037163650320
+      platform_0030_Hue_Saturation-2_30: 2796403686387109776
+      platform_0030_Hue_Saturation-2_31: -1696923284928508002
+      platform_0030_Hue_Saturation-2_32: 6869059729169052325
+      platform_0030_Hue_Saturation-2_33: -3972580976554119051
+      platform_0030_Hue_Saturation-2_34: -2719008553845435515
+      platform_0030_Hue_Saturation-2_35: -4130423714660166244
+      platform_0030_Hue_Saturation-2_36: 4992209795077520412
+      platform_0030_Hue_Saturation-2_37: -4810486795189634104
+      platform_0030_Hue_Saturation-2_38: -5528976907269373311
+      platform_0030_Hue_Saturation-2_39: 1684929561915109326
+      platform_0030_Hue_Saturation-2_4: 4161143955768202999
+      platform_0030_Hue_Saturation-2_40: -5000420853920750797
+      platform_0030_Hue_Saturation-2_41: 846673243321067283
+      platform_0030_Hue_Saturation-2_42: 6585343039951218074
+      platform_0030_Hue_Saturation-2_43: 2470076030592684436
+      platform_0030_Hue_Saturation-2_44: 4674052093254118687
+      platform_0030_Hue_Saturation-2_5: -585939231241286561
+      platform_0030_Hue_Saturation-2_6: 3632692726104305689
+      platform_0030_Hue_Saturation-2_7: 3583847319526546047
+      platform_0030_Hue_Saturation-2_8: 1565335345046281442
+      platform_0030_Hue_Saturation-2_9: 2063428319623146220
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

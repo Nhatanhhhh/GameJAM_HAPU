@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: daa6e636369d26c49a718dd5d0623004
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2258918212137785468
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_0"
+  - first:
+      213: 8047267807953469344
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_1"
+  - first:
+      213: 6790975087437185303
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_2"
+  - first:
+      213: -5789311514271250866
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_3"
+  - first:
+      213: -5332457812496333801
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_4"
+  - first:
+      213: -5775706906951486268
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_5"
+  - first:
+      213: -5568687706136587183
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_6"
+  - first:
+      213: -4948224724387487022
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_7"
+  - first:
+      213: -5621587341187423401
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_8"
+  - first:
+      213: 9065400005582797733
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_9"
+  - first:
+      213: 7618050351009534671
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_10"
+  - first:
+      213: 4803265152877471527
+    second: "platform_0035_rong-tr\u01B0\u1EDBc_11"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_0"
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 6377
+        width: 261
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78122b452a495f10800000000000000
+      internalID: 2258918212137785468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_1"
+      rect:
+        serializedVersion: 2
+        x: 3367
+        y: 6132
+        width: 338
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0afb0816f63adaf60800000000000000
+      internalID: 8047267807953469344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_2"
+      rect:
+        serializedVersion: 2
+        x: 23916
+        y: 0
+        width: 6470
+        height: 6995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7118835acd36e3e50800000000000000
+      internalID: 6790975087437185303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 11155
+        height: 6344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4688c1d9db38afa0800000000000000
+      internalID: -5789311514271250866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_4"
+      rect:
+        serializedVersion: 2
+        x: 10715
+        y: 0
+        width: 1710
+        height: 3242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71446624fdd4ff5b0800000000000000
+      internalID: -5332457812496333801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_5"
+      rect:
+        serializedVersion: 2
+        x: 14147
+        y: 2532
+        width: 673
+        height: 2171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4f26c4b2198dfa0800000000000000
+      internalID: -5775706906951486268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_6"
+      rect:
+        serializedVersion: 2
+        x: 15997
+        y: 2067
+        width: 642
+        height: 2552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154d4a2190c08b2b0800000000000000
+      internalID: -5568687706136587183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_7"
+      rect:
+        serializedVersion: 2
+        x: 18703
+        y: 189
+        width: 2013
+        height: 4479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2241a74df545bb0800000000000000
+      internalID: -4948224724387487022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_8"
+      rect:
+        serializedVersion: 2
+        x: 20858
+        y: 871
+        width: 2719
+        height: 4655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753e0bef81c1cf1b0800000000000000
+      internalID: -5621587341187423401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_9"
+      rect:
+        serializedVersion: 2
+        x: 30233
+        y: 584
+        width: 171
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab36974645cecd70800000000000000
+      internalID: 9065400005582797733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_10"
+      rect:
+        serializedVersion: 2
+        x: 19867
+        y: 187
+        width: 238
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc296fc9e60c8b960800000000000000
+      internalID: 7618050351009534671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "platform_0035_rong-tr\u01B0\u1EDBc_11"
+      rect:
+        serializedVersion: 2
+        x: 20495
+        y: 210
+        width: 270
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727264f2530a8a240800000000000000
+      internalID: 4803265152877471527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "platform_0035_rong-tr\u01B0\u1EDBc_0": 2258918212137785468
+      "platform_0035_rong-tr\u01B0\u1EDBc_1": 8047267807953469344
+      "platform_0035_rong-tr\u01B0\u1EDBc_10": 7618050351009534671
+      "platform_0035_rong-tr\u01B0\u1EDBc_11": 4803265152877471527
+      "platform_0035_rong-tr\u01B0\u1EDBc_2": 6790975087437185303
+      "platform_0035_rong-tr\u01B0\u1EDBc_3": -5789311514271250866
+      "platform_0035_rong-tr\u01B0\u1EDBc_4": -5332457812496333801
+      "platform_0035_rong-tr\u01B0\u1EDBc_5": -5775706906951486268
+      "platform_0035_rong-tr\u01B0\u1EDBc_6": -5568687706136587183
+      "platform_0035_rong-tr\u01B0\u1EDBc_7": -4948224724387487022
+      "platform_0035_rong-tr\u01B0\u1EDBc_8": -5621587341187423401
+      "platform_0035_rong-tr\u01B0\u1EDBc_9": 9065400005582797733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

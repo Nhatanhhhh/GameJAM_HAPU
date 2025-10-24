@@ -12,14 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Main Menu/Main Menu.unity
     guid: aa0d839dcf8bd324d99cf4de91a7a8cf
   - enabled: 1
-    path: Assets/Scenes/Menus/MapSelection/SelectMap.unity
-    guid: 66bf694c766a5c94fb760906bffac379
+    path: Assets/Scenes/GameJam/Map1.unity
+    guid: cab7bf792610cc949853274a940446e7
   - enabled: 1
-    path: Assets/Scenes/Maps/Control_ASWD.unity
-    guid: 2f8d96c974fc0ef41b07ae117e5e873a
-  - enabled: 1
-    path: Assets/Scenes/Maps/Control_Drag.unity
-    guid: 918098c33f9d07444b0b921b072360ac
+    path: Assets/Scenes/GameJam/Map2.unity
+    guid: 435b82a2507a65a4897a877dab5e6752
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 8163c44aca16cf84e8716e120ff6006e, type: 3}
   m_UseUCBPForAssetBundles: 0

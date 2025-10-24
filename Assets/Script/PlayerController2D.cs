@@ -62,7 +62,7 @@ public class PlayerController2D : MonoBehaviour
 
         if (inputActions.Player.Attack.triggered)
         {
-            Debug.Log("Attack Triggered!");
+            //Debug.Log("Attack Triggered!");
             stateMachine.CurrentState = PlayerState.Attacking;
         }
     }
@@ -125,12 +125,12 @@ public class PlayerController2D : MonoBehaviour
 
     public void OnAttackAnimationEnd()
     {
-        Debug.Log("Triggered Attack Ended Event");
+        //Debug.Log("Triggered Attack Ended Event");
 
         // Quay lại Idle sau khi attack xong
         if (stateMachine.CurrentState == PlayerState.Attacking)
         {
-            Debug.Log("Attack Animation Ended");
+            //Debug.Log("Attack Animation Ended");
             stateMachine.CurrentState = PlayerState.Idle;
         }
     }
@@ -154,5 +154,24 @@ public class PlayerController2D : MonoBehaviour
                 animator.SetBool("isWalking", false);
                 break;
         }
+    }
+
+    private void OnEnable()
+    {
+        // Kích hoạt input map khi object bật
+        inputActions.Player.Enable();
+    }
+
+    private void OnDisable()
+    {
+        // Tắt input map khi object tắt (rời scene hoặc bị disable)
+        inputActions.Player.Disable();
+    }
+
+    private void OnDestroy()
+    {
+        // Giải phóng hoàn toàn tài nguyên input
+        inputActions.Dispose();
+        stateMachine.OnStateChanged -= HandleStateChanged;
     }
 }

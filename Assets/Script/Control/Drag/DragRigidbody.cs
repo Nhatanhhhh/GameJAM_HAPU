@@ -24,25 +24,43 @@ public class DragAndThrowController : MonoBehaviour
     void Update()
     {
         // Chuyển đổi tọa độ chuột sang tọa độ thế giới một cách CHUẨN XÁC
-        Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorldPosition.z = 0f; // BẮT BUỘC: Đặt Z=0 để nó nằm trên mặt phẳng 2D
+        Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(
+        new Vector3(Input.mousePosition.x, Input.mousePosition.y, -mainCamera.transform.position.z));
+
 
         // --- BẮT ĐẦU KÉO ---
         if (Input.GetMouseButtonDown(0))
         {
-            // Bắn tia để tìm vật thể
-            RaycastHit2D hit = Physics2D.Raycast(mouseWorldPosition, Vector2.zero);
-            if (hit.collider != null && hit.collider.attachedRigidbody != null)
+            Collider2D hit = Physics2D.OverlapPoint(mouseWorldPosition);
+
+            if (hit != null)
             {
-                selectedRigidbody = hit.collider.attachedRigidbody;
-                // Giảm trọng lực để kéo cho dễ
-                selectedRigidbody.gravityScale = draggingGravity;
+                Debug.Log($"🟢 Đã chạm vào: {hit.name}");
+
+                if (hit.attachedRigidbody != null)
+                {
+                    selectedRigidbody = hit.attachedRigidbody;
+                    selectedRigidbody.gravityScale = draggingGravity;
+                    Debug.Log($"✅ Rigidbody của {hit.name} đã được chọn để kéo");
+                }
+                else
+                {
+                    Debug.Log($"⚠️ {hit.name} không có Rigidbody2D — không thể kéo!");
+                }
             }
+            else
+            {
+                Debug.Log("❌ Không chạm vào vật thể nào!");
+            }
+
         }
+
 
         // --- THẢ RA ĐỂ NÉM ---
         if (Input.GetMouseButtonUp(0) && selectedRigidbody != null)
         {
+            Debug.Log($"🟠 Thả vật: {selectedRigidbody.name}");
+
             // Trả lại trọng lực như cũ
             selectedRigidbody.gravityScale = originalGravity;
             // Ném vật đi bằng vận tốc cuối cùng của chuột

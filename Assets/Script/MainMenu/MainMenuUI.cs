@@ -18,7 +18,8 @@ public class MainMenuUI : MonoBehaviour
     public void OnPlayClicked()
     {
         // Tạm thời load scene chọn map
-        SceneManager.LoadScene("SelectMap");
+        SceneLoader.Instance.LoadScene("Map2");
+
         Debug.Log("Bắt đầu chơi game...");
         AudioManager.Instance.PlaySFX("clickSFX");
         Debug.Log("Phát hiệu ứng âm thanh: clickSFX");
