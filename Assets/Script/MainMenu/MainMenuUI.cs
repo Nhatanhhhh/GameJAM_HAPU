@@ -20,6 +20,9 @@ public class MainMenuUI : MonoBehaviour
         // Tạm thời load scene chọn map
         SceneManager.LoadScene("SelectMap");
         Debug.Log("Bắt đầu chơi game...");
+        AudioManager.Instance.PlaySFX("clickSFX");
+        Debug.Log("Phát hiệu ứng âm thanh: clickSFX");
+
 
     }
 

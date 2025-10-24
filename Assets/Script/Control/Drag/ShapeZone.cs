@@ -19,6 +19,7 @@ public class ShapeZone : MonoBehaviour
         else
         {
             Debug.Log("Vật sai hình dạng!");
+            AudioManager.Instance.PlaySFX("Drag_WrongSFX");
         }
 
     }

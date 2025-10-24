@@ -14,6 +14,21 @@ public class DragGameManager : MonoBehaviour
         else
         {
             Instance = this;
+
+        }
+    }
+
+    void Start()
+    {
+        // Gọi sau khi tất cả Awake() khác đã chạy
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.ChangeState(GameState.Playing);
+            Debug.Log("🎮 DragGameManager: Bắt đầu game (state -> Playing)");
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ GameManager chưa được khởi tạo khi DragGameManager Start!");
         }
     }
 
@@ -21,5 +36,6 @@ public class DragGameManager : MonoBehaviour
     {
         score += amount;
         Debug.Log($"🎯 Score: {score}");
+        AudioManager.Instance.PlaySFX("Drag_ScorePointSFX");
     }
 }

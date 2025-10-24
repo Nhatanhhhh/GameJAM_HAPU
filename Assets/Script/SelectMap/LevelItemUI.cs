@@ -27,7 +27,11 @@ public class LevelItemUI : MonoBehaviour
     public void OnClick()
     {
         if (!string.IsNullOrEmpty(sceneToLoad))
+        {
+            AudioManager.Instance.PlaySFX("Drag_ScorePointSFX");
             SceneManager.LoadScene(sceneToLoad);
+        }
+
         else
             Debug.LogWarning("Scene name trống trong LevelItemUI");
     }

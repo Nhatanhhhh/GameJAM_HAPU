@@ -287,9 +287,28 @@ MonoBehaviour:
   sounds:
   - name: menu
     clip: {fileID: 8300000, guid: fe18ab3ec37347546ba306cc099d4261, type: 3}
-    volume: 1
-    pitch: 0.1
+    volume: 0.6
     loop: 1
+    source: {fileID: 0}
+  - name: game
+    clip: {fileID: 8300000, guid: 2fc26b5fd8618344580a568f07254a3a, type: 3}
+    volume: 0.61
+    loop: 1
+    source: {fileID: 0}
+  - name: clickSFX
+    clip: {fileID: 8300000, guid: d12ad8e699d5aca469d0f4c1b1977b0a, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Drag_ScorePointSFX
+    clip: {fileID: 8300000, guid: 9ec5c67e1a8c86f48862300c160610a5, type: 3}
+    volume: 0.11
+    loop: 0
+    source: {fileID: 0}
+  - name: Drag_WrongSFX
+    clip: {fileID: 8300000, guid: 46d95ba9ace45134886dbce6e9c09ba3, type: 3}
+    volume: 0.135
+    loop: 0
     source: {fileID: 0}
 --- !u!1 &338623490
 GameObject:
