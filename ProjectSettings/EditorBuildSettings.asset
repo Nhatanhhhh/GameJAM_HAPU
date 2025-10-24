@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameJam/Map2.unity
     guid: 435b82a2507a65a4897a877dab5e6752
+  - enabled: 1
+    path: Assets/Scenes/GameJam/Map3.unity
+    guid: c296bcddbcdaa6b47a9466a565dc73ef
+  - enabled: 1
+    path: Assets/Scenes/GameJam/Map4.unity
+    guid: f7b84111bdad72f4781d6c845f82abfc
+  - enabled: 1
+    path: Assets/Scenes/GameJam/Map5.unity
+    guid: 2b5b7cf3a1b90ed4296fe7805307fa21
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 8163c44aca16cf84e8716e120ff6006e, type: 3}
   m_UseUCBPForAssetBundles: 0

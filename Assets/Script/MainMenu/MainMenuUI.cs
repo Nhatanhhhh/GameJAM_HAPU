@@ -7,6 +7,7 @@ public class MainMenuUI : MonoBehaviour
     [Header("Buttons")]
     [SerializeField] private Button playButton;
     [SerializeField] private Button exitButton;
+    [SerializeField] private string sceneToLoad = "Map1";
 
     private void Start()
     {
@@ -18,13 +19,8 @@ public class MainMenuUI : MonoBehaviour
     public void OnPlayClicked()
     {
         // Tạm thời load scene chọn map
-        SceneLoader.Instance.LoadScene("Map2");
-
-        Debug.Log("Bắt đầu chơi game...");
+        SceneLoader.Instance.LoadScene(sceneToLoad);
         AudioManager.Instance.PlaySFX("clickSFX");
-        Debug.Log("Phát hiệu ứng âm thanh: clickSFX");
-
-
     }
 
     public void OnExitClicked()

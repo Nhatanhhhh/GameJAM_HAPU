@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LotusLogic : MonoBehaviour
 {
-
+    public string sceneToLoad;
 
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,7 +13,7 @@ public class LotusLogic : MonoBehaviour
             Debug.Log("LotusLogic: Player đã chạm vào hoa sen!");
 
             AudioManager.Instance.PlaySFX("Drag_ScorePointSFX");
-            SceneLoader.Instance.LoadScene("Map2");
+            SceneLoader.Instance.LoadScene(sceneToLoad);
         }
 
     }

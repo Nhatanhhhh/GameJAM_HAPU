@@ -626,7 +626,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: game
     clip: {fileID: 8300000, guid: 2fc26b5fd8618344580a568f07254a3a, type: 3}
-    volume: 0.61
+    volume: 0
     loop: 1
     source: {fileID: 0}
   - name: clickSFX
@@ -637,11 +637,6 @@ MonoBehaviour:
   - name: Drag_ScorePointSFX
     clip: {fileID: 8300000, guid: 9ec5c67e1a8c86f48862300c160610a5, type: 3}
     volume: 0.11
-    loop: 0
-    source: {fileID: 0}
-  - name: Drag_WrongSFX
-    clip: {fileID: 8300000, guid: 46d95ba9ace45134886dbce6e9c09ba3, type: 3}
-    volume: 0.135
     loop: 0
     source: {fileID: 0}
   - name: Drag_WrongSFX
@@ -2083,15 +2078,24 @@ MonoBehaviour:
   OnMenu:
     m_PersistentCalls:
       m_Calls: []
-  OnSelectMap:
-    m_PersistentCalls:
-      m_Calls: []
   OnPlaying:
     m_PersistentCalls:
       m_Calls: []
   OnGameOver:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 415914684}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: ReloadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1924979640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2338,6 +2342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuUI
   playButton: {fileID: 338623492}
   exitButton: {fileID: 264144024}
+  sceneToLoad: Map2
 --- !u!4 &1976592841
 Transform:
   m_ObjectHideFlags: 0

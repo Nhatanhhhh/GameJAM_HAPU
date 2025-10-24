@@ -91,7 +91,7 @@ public class PlayerController2D : MonoBehaviour
     // Xử lý khi va chạm bắt đầu (chạm đất)
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("leaf"))
         {
             // Kiểm tra xem có đang tiếp xúc từ phía trên không
             foreach (ContactPoint2D contact in collision.contacts)
@@ -108,7 +108,7 @@ public class PlayerController2D : MonoBehaviour
     // Xử lý khi va chạm kết thúc (rời khỏi đất)
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("leaf"))
         {
             isGrounded = false;
         }

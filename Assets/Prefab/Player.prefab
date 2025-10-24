@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 1109875059524774547}
   - component: {fileID: 7772708783883030372}
   - component: {fileID: 5044511218954971635}
-  m_Layer: 0
+  - component: {fileID: 6550299904754303036}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -219,3 +220,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e10d07133cc5c54594a46bc74124abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerStateMachine
+--- !u!114 &6550299904754303036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322122971462431545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2eaf317b1dc6c446a9871b9fe8e4d50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDeathHandler
+  deathZoneTag: Water

@@ -3,18 +3,16 @@ using UnityEngine;
 public class DragAndThrowController : MonoBehaviour
 {
     [Header("CONFIG")]
-    [SerializeField] private float dragForce = 20f;          // Lực kéo vật theo chuột, càng cao càng bám
-    [SerializeField] private float throwMultiplier = 1.5f;   // Lực ném
-    [SerializeField] private float maxDragSpeed = 40f;       // Tốc độ kéo tối đa (để không bị xuyên tường)
-    [SerializeField] private float originalGravity = 1f;     // Trọng lực gốc của vật
-    [SerializeField] private float draggingGravity = 0.2f;   // Trọng lực khi đang kéo (để kéo lên dễ hơn)
+    [SerializeField] private float dragForce = 20f;
+    [SerializeField] private float maxDragSpeed = 40f;
+    [SerializeField] private float originalGravity = 1f;
+    [SerializeField] private float draggingGravity = 0.2f;
 
     private Camera mainCamera;
     private Rigidbody2D selectedRigidbody;
+    private MovingLeaf currentMovingLeaf; // tham chiếu nếu đang kéo lá loại Moving
 
-    // Biến để tính vận tốc chuột
     private Vector3 lastMousePosition;
-    private Vector3 mouseVelocity;
 
     void Start()
     {
@@ -23,10 +21,8 @@ public class DragAndThrowController : MonoBehaviour
 
     void Update()
     {
-        // Chuyển đổi tọa độ chuột sang tọa độ thế giới một cách CHUẨN XÁC
         Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(
-        new Vector3(Input.mousePosition.x, Input.mousePosition.y, -mainCamera.transform.position.z));
-
+            new Vector3(Input.mousePosition.x, Input.mousePosition.y, -mainCamera.transform.position.z));
 
         // --- BẮT ĐẦU KÉO ---
         if (Input.GetMouseButtonDown(0))
@@ -37,10 +33,26 @@ public class DragAndThrowController : MonoBehaviour
             {
                 Debug.Log($"🟢 Đã chạm vào: {hit.name}");
 
+                MovingLeaf movingLeaf = hit.GetComponent<MovingLeaf>();
+                if (movingLeaf != null)
+                {
+                    if (!movingLeaf.CanMove)
+                    {
+                        Debug.Log($"🚫 Không thể kéo {hit.name} (hết lượt hoặc có người đứng)");
+                        return;
+                    }
+
+                    if (!movingLeaf.TryConsumeMove())
+                        return;
+
+                    currentMovingLeaf = movingLeaf;
+                }
+
                 if (hit.attachedRigidbody != null)
                 {
                     selectedRigidbody = hit.attachedRigidbody;
                     selectedRigidbody.gravityScale = draggingGravity;
+                    selectedRigidbody.linearVelocity = Vector2.zero; // reset vận tốc cũ
                     Debug.Log($"✅ Rigidbody của {hit.name} đã được chọn để kéo");
                 }
                 else
@@ -48,52 +60,64 @@ public class DragAndThrowController : MonoBehaviour
                     Debug.Log($"⚠️ {hit.name} không có Rigidbody2D — không thể kéo!");
                 }
             }
-            else
-            {
-                Debug.Log("❌ Không chạm vào vật thể nào!");
-            }
-
         }
 
-
-        // --- THẢ RA ĐỂ NÉM ---
+        // --- THẢ RA ---
         if (Input.GetMouseButtonUp(0) && selectedRigidbody != null)
         {
             Debug.Log($"🟠 Thả vật: {selectedRigidbody.name}");
 
-            // Trả lại trọng lực như cũ
+            // ✅ Chỉ khôi phục trọng lực, không thêm vận tốc ném
             selectedRigidbody.gravityScale = originalGravity;
-            // Ném vật đi bằng vận tốc cuối cùng của chuột
-            selectedRigidbody.linearVelocity = mouseVelocity * throwMultiplier;
-            // Thả vật ra
+            selectedRigidbody.linearVelocity = Vector2.zero; // đảm bảo không bị "bay"
             selectedRigidbody = null;
+            currentMovingLeaf = null;
         }
 
-        // Luôn tính toán vận tốc chuột để có giá trị mới nhất khi thả tay
-        mouseVelocity = (mouseWorldPosition - lastMousePosition) / Time.deltaTime;
         lastMousePosition = mouseWorldPosition;
     }
 
     void FixedUpdate()
     {
-        // --- DI CHUYỂN VẬT KHI ĐANG KÉO ---
         if (selectedRigidbody != null)
         {
-            // Lấy vị trí chuột lần nữa trong FixedUpdate để đồng bộ với vật lý
             Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             mouseWorldPosition.z = 0f;
 
-            // Tính toán vận tốc cần thiết để vật bay tới chuột
-            Vector2 targetVelocity = (mouseWorldPosition - selectedRigidbody.transform.position) * dragForce;
+            Vector2 direction = (mouseWorldPosition - selectedRigidbody.transform.position);
+            float distance = direction.magnitude;
+            direction.Normalize();
 
-            // Giới hạn tốc độ tối đa
-            if (targetVelocity.magnitude > maxDragSpeed)
+            BoxCollider2D box = selectedRigidbody.GetComponent<BoxCollider2D>();
+            if (box != null)
             {
-                targetVelocity = targetVelocity.normalized * maxDragSpeed;
-            }
+                // 🔍 Check chặn
+                RaycastHit2D hit = Physics2D.BoxCast(
+                    box.bounds.center,
+                    box.bounds.size,
+                    0f,
+                    direction,
+                    distance,
+                    LayerMask.GetMask("Ground", "Obstacle")
+                );
 
-            // Gán vận tốc để di chuyển vật
-            selectedRigidbody.linearVelocity = targetVelocity;
+                if (hit.collider != null)
+                {
+                    Debug.Log($"🚫 Bị chặn bởi {hit.collider.name}, không thể kéo xuyên qua!");
+
+                    // Giữ nguyên rigidbody, chỉ chặn di chuyển xuyên
+                    selectedRigidbody.linearVelocity = Vector2.zero;
+                    return; // giữ trạng thái đang kéo
+                }
+
+                // --- Nếu không bị chặn, cho phép kéo bình thường ---
+                Vector2 targetVelocity = direction * dragForce * distance;
+
+                if (targetVelocity.magnitude > maxDragSpeed)
+                    targetVelocity = targetVelocity.normalized * maxDragSpeed;
+
+                selectedRigidbody.linearVelocity = targetVelocity;
+            }
         }
     }
 }

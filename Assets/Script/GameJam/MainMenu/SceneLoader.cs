@@ -26,5 +26,10 @@ public class SceneLoader : MonoBehaviour
     {
         Scene scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
+        Debug.Log("Reloading current scene:" + scene.name);
+
+        // Reset lại trạng thái GameManager sau khi load
+        if (GameManager.Instance != null)
+            GameManager.Instance.ChangeState(GameState.Playing);
     }
 }

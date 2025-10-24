@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour
     public GameState CurrentState { get; private set; } = GameState.None;
 
     public UnityEvent OnMenu;
-    public UnityEvent OnSelectMap;
     public UnityEvent OnPlaying;
     public UnityEvent OnGameOver;
 
@@ -47,12 +46,6 @@ public class GameManager : MonoBehaviour
                 Debug.Log("🎵 Playing menu music");
                 break;
 
-            case GameState.SelectMap:
-                OnSelectMap?.Invoke();
-                AudioManager.Instance.PlayMusic("selectmap");
-                Debug.Log("🎵 Playing SelectMap music");
-                break;
-
             case GameState.Playing:
                 OnPlaying?.Invoke();
                 AudioManager.Instance.PlayMusic("game");
@@ -60,14 +53,13 @@ public class GameManager : MonoBehaviour
 
             case GameState.GameOver:
                 OnGameOver?.Invoke();
-                AudioManager.Instance.PlayMusic("gameover");
+                AudioManager.Instance.PlayMusic("Drag_ScorePointSFX");
                 break;
         }
     }
 
     // Shortcut methods
     public void StartGame() => ChangeState(GameState.Playing);
-    public void ToSelectMap() => ChangeState(GameState.SelectMap);
     public void BackToMenu() => ChangeState(GameState.Menu);
     public void GameOver() => ChangeState(GameState.GameOver);
 }
