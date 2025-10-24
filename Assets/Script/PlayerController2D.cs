@@ -2,48 +2,74 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController2D_Debug : MonoBehaviour
+[RequireComponent(typeof(PlayerStateMachine))]
+public class PlayerController2D : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
+
+    private Animator animator;
     private Rigidbody2D rb;
     private PlayerInputActions inputActions;
+    private PlayerStateMachine stateMachine;
 
     // Biến trạng thái
-    private bool isGrounded = false;
+    private bool isGrounded;
+    private bool jumpRequested;
     private Vector2 moveInput;
 
     // Biến cờ (flag) để giao tiếp giữa Update và FixedUpdate
-    private bool jumpRequested = false;
+
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
 
+        animator = GetComponent<Animator>();
+
         inputActions = new PlayerInputActions();
         inputActions.Enable();
+
+        stateMachine = GetComponent<PlayerStateMachine>();
+        stateMachine.OnStateChanged += HandleStateChanged; // đăng ký listener
     }
 
     // Update được dùng để bắt input mỗi frame
     void Update()
     {
-        // 1. Đọc input di chuyển ở đây
         moveInput = inputActions.Player.Move.ReadValue<Vector2>();
+        bool isWalking = Mathf.Abs(moveInput.x) > 0.1f;
 
-        // 2. Kiểm tra input nhảy. Nếu nút Jump được nhấn và đang chạm đất,
-        //    thì bật cờ "yêu cầu nhảy" lên.
+        // if (isGrounded && isWalking)
+        //     stateMachine.CurrentState = PlayerState.Walking;
+        // else if (isGrounded && !isWalking)
+        //     stateMachine.CurrentState = PlayerState.Idle;
+
+
+        if ((isWalking && moveInput.x > 0 && transform.localScale.x < 0) ||
+            (isWalking && moveInput.x < 0 && transform.localScale.x > 0))
+        {
+            FlipCharacter();
+        }
+
+
         if (inputActions.Player.Jump.triggered && isGrounded)
         {
             jumpRequested = true;
+        }
+
+        if (inputActions.Player.Attack.triggered)
+        {
+            Debug.Log("Attack Triggered!");
+            stateMachine.CurrentState = PlayerState.Attacking;
         }
     }
 
     // FixedUpdate được dùng để áp dụng các thay đổi vật lý
     void FixedUpdate()
     {
-        // 3. Áp dụng lực di chuyển trong FixedUpdate
         // Luôn cập nhật vận tốc ngang dựa trên input đọc được từ Update()
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
@@ -85,6 +111,48 @@ public class PlayerController2D_Debug : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+        }
+    }
+
+    private void FlipCharacter()
+    {
+
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Sign(moveInput.x) * Mathf.Abs(scale.x);
+        transform.localScale = scale;
+
+    }
+
+    public void OnAttackAnimationEnd()
+    {
+        Debug.Log("Triggered Attack Ended Event");
+
+        // Quay lại Idle sau khi attack xong
+        if (stateMachine.CurrentState == PlayerState.Attacking)
+        {
+            Debug.Log("Attack Animation Ended");
+            stateMachine.CurrentState = PlayerState.Idle;
+        }
+    }
+
+    private void HandleStateChanged(PlayerState oldState, PlayerState newState)
+    {
+        Debug.Log($"Player changed from {oldState} to {newState}");
+
+        switch (newState)
+        {
+            case PlayerState.Idle:
+                animator.SetBool("isWalking", false);
+                animator.SetBool("isAttacking", false);
+                break;
+            case PlayerState.Walking:
+                animator.SetBool("isWalking", true);
+                animator.SetBool("isAttacking", false);
+                break;
+            case PlayerState.Attacking:
+                animator.SetBool("isAttacking", true);
+                animator.SetBool("isWalking", false);
+                break;
         }
     }
 }

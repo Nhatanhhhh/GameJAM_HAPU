@@ -6,36 +6,24 @@ public class MainMenuUI : MonoBehaviour
 {
     [Header("Buttons")]
     [SerializeField] private Button playButton;
-    [SerializeField] private Button settingButton;
-    [SerializeField] private Button infoButton;
     [SerializeField] private Button exitButton;
 
     private void Start()
     {
         // Gán sự kiện cho nút
         if (playButton != null) playButton.onClick.AddListener(OnPlayClicked);
-        if (settingButton != null) settingButton.onClick.AddListener(OnSettingClicked);
-        if (infoButton != null) infoButton.onClick.AddListener(OnInfoClicked);
         if (exitButton != null) exitButton.onClick.AddListener(OnExitClicked);
     }
 
-    private void OnPlayClicked()
+    public void OnPlayClicked()
     {
         // Tạm thời load scene chọn map
         SceneManager.LoadScene("SelectMap");
+        Debug.Log("Bắt đầu chơi game...");
+
     }
 
-    private void OnSettingClicked()
-    {
-        Debug.Log("Setting menu sẽ làm sau");
-    }
-
-    private void OnInfoClicked()
-    {
-        Debug.Log("More Info sẽ làm sau");
-    }
-
-    private void OnExitClicked()
+    public void OnExitClicked()
     {
         Debug.Log("Thoát game...");
         Application.Quit();

@@ -7,11 +7,13 @@ public class PointManager : MonoBehaviour
     public static PointManager Instance { get; private set; }
 
     public int currentScore { get; private set; }
+    // Thời điểm màn chơi bắt đầu
+    public float playTime;
 
     // ĐIỂM SỐ CẦN ĐẠT ĐỂ THẮNG
     public int scoreToWin = 20;
 
-    public TextMeshProUGUI scoreText;
+
 
     void Awake()
     {
@@ -22,20 +24,31 @@ public class PointManager : MonoBehaviour
         else
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
+
         }
     }
 
     void Start()
     {
+        // Ghi lại thời điểm bắt đầu của game/level
+        playTime = Time.time;
+        Debug.Log($"Game started at time: {playTime:F2} seconds");
         currentScore = 0;
-        UpdateScoreUI();
+    }
+
+    void Update()
+    {
+        float elapsedTime = Time.time - playTime;
+        //UIManager.Instance.UpdateTimeUI(elapsedTime);
     }
 
     public void AddScore(int pointsToAdd)
     {
         currentScore += pointsToAdd;
         Debug.Log($"Score updated! Current Score: {currentScore}");
-        UpdateScoreUI();
+
+        UIManager.Instance.UpdateScoreUI(currentScore);
 
         // KIỂM TRA ĐIỀU KIỆN THẮNG
         CheckForWinCondition();
@@ -47,10 +60,10 @@ public class PointManager : MonoBehaviour
         if (currentScore >= scoreToWin)
         {
             // Kiểm tra xem GameManager có tồn tại không
-            if (GameManager.Instance != null)
+            if (JumpGameManager.Instance != null)
             {
                 // Thông báo cho GameManager rằng người chơi đã thắng
-                GameManager.Instance.PlayerHasWon();
+                JumpGameManager.Instance.PlayerHasWon();
             }
             else
             {
@@ -59,11 +72,7 @@ public class PointManager : MonoBehaviour
         }
     }
 
-    private void UpdateScoreUI()
-    {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + currentScore.ToString();
-        }
-    }
+
+
+
 }
