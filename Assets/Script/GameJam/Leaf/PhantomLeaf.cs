@@ -10,36 +10,63 @@ public class PhantomLeaf : MonoBehaviour
     [Tooltip("Collider dạng trigger để phát hiện chuột")]
     public Collider2D triggerZone;
 
+    [Header("Visual")]
+    [Range(0f, 1f)] public float phantomOpacity = 0.5f; // độ trong suốt khi phantom
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
+
     private bool isMouseOver = false;
 
     private void Awake()
     {
         if (solidCollider == null)
-            Debug.LogWarning("⚠️ PhantomLeaf: Chưa gán solidCollider!");
+            Debug.LogWarning("PhantomLeaf: Chưa gán solidCollider!");
 
         if (triggerZone == null)
-            Debug.LogWarning("⚠️ PhantomLeaf: Chưa gán triggerZone!");
+            Debug.LogWarning("PhantomLeaf: Chưa gán triggerZone!");
 
-        // Ban đầu: tắt collider vật lý
+        // Lấy SpriteRenderer để chỉnh màu
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+            originalColor = spriteRenderer.color;
+
+        // Ban đầu: tắt collider vật lý và set trong suốt
         if (solidCollider != null)
             solidCollider.enabled = false;
+
+        SetOpacity(phantomOpacity);
     }
 
     private void OnMouseEnter()
     {
         isMouseOver = true;
+
         if (solidCollider != null)
             solidCollider.enabled = true;
 
-        Debug.Log($"🌿 PhantomLeaf: Chuột vào {name} → Bật collider!");
+        SetOpacity(1f);
+
+        //Debug.Log($"PhantomLeaf: Chuột vào {name} → Bật collider + full opacity!");
     }
 
     private void OnMouseExit()
     {
         isMouseOver = false;
+
         if (solidCollider != null)
             solidCollider.enabled = false;
 
-        Debug.Log($"💨 PhantomLeaf: Chuột rời {name} → Tắt collider!");
+        SetOpacity(phantomOpacity);
+
+        //Debug.Log($"PhantomLeaf: Chuột rời {name} → Tắt collider + giảm opacity!");
+    }
+
+    private void SetOpacity(float alpha)
+    {
+        if (spriteRenderer == null) return;
+
+        Color c = originalColor;
+        c.a = alpha;
+        spriteRenderer.color = c;
     }
 }

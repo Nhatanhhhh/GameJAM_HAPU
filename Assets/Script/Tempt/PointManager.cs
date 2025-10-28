@@ -48,7 +48,7 @@ public class PointManager : MonoBehaviour
         currentScore += pointsToAdd;
         Debug.Log($"Score updated! Current Score: {currentScore}");
 
-        UIManager.Instance.UpdateScoreUI(currentScore);
+        //UIManager.Instance.UpdateScoreUI(currentScore);
 
         // KIỂM TRA ĐIỀU KIỆN THẮNG
         CheckForWinCondition();

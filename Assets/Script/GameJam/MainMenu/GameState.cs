@@ -3,5 +3,6 @@ public enum GameState
     None,
     Menu,
     Playing,
-    GameOver
+    GameOver,
+    EndZone
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4511537560949932954}
   - component: {fileID: 191454622931098099}
   - component: {fileID: 2555723041448234116}
+  - component: {fileID: -3637833531583436041}
   m_Layer: 0
   m_Name: DCLeaf
   m_TagString: Ground
@@ -29,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 3767216549229372190}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.95, y: -3.01, z: 0}
-  m_LocalScale: {x: 3.1980908, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,12 +83,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.5264151, b: 0.5264151, a: 1}
+  m_Sprite: {fileID: 21300000, guid: b7a97997f01d2ac419d256ccbb8035a5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.8399997, y: 2.1599998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -127,17 +128,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.29013395, y: 0.44889575}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    border: {x: 6.192, y: 0, z: 5.66, w: 0}
+    pivot: {x: 0.5385227, y: 0.6877435}
+    oldSize: {x: 15.359999, y: 8.639999}
+    newSize: {x: 3.8399997, y: 2.1599998}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.2808084, y: 0.77207196}
   m_EdgeRadius: 0
 --- !u!50 &191454622931098099
 Rigidbody2D:
@@ -178,5 +179,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4322774426ee94083d4364a16063aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovingLeaf
+  leafType: 1
   maxMoves: 3
   isPlayerOnLeaf: 0
+--- !u!114 &-3637833531583436041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3767216549229372190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f72c035b7351c046a7aee6e05c76b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LeafPickupBounce
+  bounceScale: 1.15
+  bounceSpeed: 10
+  settleSpeed: 8

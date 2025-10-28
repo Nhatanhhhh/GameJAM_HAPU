@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 746085dd5d6de21468f8f08cd9c6eea7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1072901744714624215
+    second: Sen_loxo_sh_0
+  - first:
+      213: -1641470684425406040
+    second: Sen_loxo_sh_1
+  - first:
+      213: 2512057138753607587
+    second: Sen_loxo_sh_2
+  - first:
+      213: -2441371418973232017
+    second: Sen_loxo_sh_3
+  - first:
+      213: 2095393322472571821
+    second: Sen_loxo_sh_4
+  - first:
+      213: -6124403385976228048
+    second: Sen_loxo_sh_5
+  - first:
+      213: -1091115859277898886
+    second: Sen_loxo_sh_6
+  - first:
+      213: -6941009899729414962
+    second: Sen_loxo_sh_7
+  - first:
+      213: -7541165976152373691
+    second: Sen_loxo_sh_8
+  - first:
+      213: 5650806106889643420
+    second: Sen_loxo_sh_9
+  - first:
+      213: 1934483893651830208
+    second: Sen_loxo_sh_10
+  - first:
+      213: 1944172790407630853
+    second: Sen_loxo_sh_11
+  - first:
+      213: 3538406679375760114
+    second: Sen_loxo_sh_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sen_loxo_sh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 738
+        width: 1356
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92353633c894c11f0800000000000000
+      internalID: -1072901744714624215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a93b910c135839e0800000000000000
+      internalID: -1641470684425406040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a794e288ae9cd220800000000000000
+      internalID: 2512057138753607587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 778
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f642f4f11a18e1ed0800000000000000
+      internalID: -2441371418973232017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da304baff15541d10800000000000000
+      internalID: 2095393322472571821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 760
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037ffa5a19fb10ba0800000000000000
+      internalID: -6124403385976228048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 771
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b12fe28e39bd0f0800000000000000
+      internalID: -1091115859277898886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4982075449caf90800000000000000
+      internalID: -6941009899729414962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 759
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5460d2fdf75685790800000000000000
+      internalID: -7541165976152373691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 756
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95e3c70732bb6e40800000000000000
+      internalID: 5650806106889643420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 730
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5f4d81adaa8da10800000000000000
+      internalID: 1934483893651830208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_11
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 730
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5001a3a2ad61bfa10800000000000000
+      internalID: 1944172790407630853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sen_loxo_sh_12
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 730
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2facf0ba022fa1130800000000000000
+      internalID: 3538406679375760114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sen_loxo_sh_0: -1072901744714624215
+      Sen_loxo_sh_1: -1641470684425406040
+      Sen_loxo_sh_10: 1934483893651830208
+      Sen_loxo_sh_11: 1944172790407630853
+      Sen_loxo_sh_12: 3538406679375760114
+      Sen_loxo_sh_2: 2512057138753607587
+      Sen_loxo_sh_3: -2441371418973232017
+      Sen_loxo_sh_4: 2095393322472571821
+      Sen_loxo_sh_5: -6124403385976228048
+      Sen_loxo_sh_6: -1091115859277898886
+      Sen_loxo_sh_7: -6941009899729414962
+      Sen_loxo_sh_8: -7541165976152373691
+      Sen_loxo_sh_9: 5650806106889643420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

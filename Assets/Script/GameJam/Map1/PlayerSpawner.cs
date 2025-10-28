@@ -12,11 +12,12 @@ public class PlayerSpawner : MonoBehaviour
         if (playerPrefab != null)
         {
             Instantiate(playerPrefab, spawnPoint.position, Quaternion.identity);
-            Debug.Log($"🟢 PlayerSpawner: Đã sinh ra Player tại {spawnPoint.position}");
+            GameManager.Instance.ChangeState(GameState.Playing);
+            Debug.Log($"PlayerSpawner: Đã sinh ra Player tại {spawnPoint.position}");
         }
         else
         {
-            Debug.LogError("❌ PlayerSpawner: Chưa gán playerPrefab trong Inspector!");
+            Debug.LogError("PlayerSpawner: Chưa gán playerPrefab trong Inspector!");
         }
     }
 }

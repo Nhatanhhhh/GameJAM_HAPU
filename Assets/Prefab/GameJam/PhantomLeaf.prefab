@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3842713212208372895}
   - component: {fileID: 3301725442209834250}
   - component: {fileID: 8462870780243216311}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PhantomLeaf
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 6165905308509940522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.47, y: -0.82, z: 0}
-  m_LocalScale: {x: 3.3914, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6787298, g: 0.57924527, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: add4f6c597f8d3e4d8e5f4fb8bb1b5f8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -127,17 +127,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.27980304, y: 3.472103}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3.462143, y: 9.055515}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.0349336, y: 2.042903}
   m_EdgeRadius: 0
 --- !u!61 &3301725442209834250
 BoxCollider2D:
@@ -173,17 +173,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.2416482, y: 2.9252143}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3.462143, y: 9.055515}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.0094957, y: 1.0000002}
   m_EdgeRadius: 0
 --- !u!114 &8462870780243216311
 MonoBehaviour:
@@ -199,3 +199,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PhantomLeaf
   solidCollider: {fileID: 3301725442209834250}
   triggerZone: {fileID: 3842713212208372895}
+  phantomOpacity: 0.7

@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: fa5edd0f31b265744bc06562c02296ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6883458611748229606
+    second: SS_Run_Basic_0
+  - first:
+      213: -3027442344921937374
+    second: SS_Run_Basic_1
+  - first:
+      213: -1784145351312417690
+    second: SS_Run_Basic_2
+  - first:
+      213: -8344654007429704027
+    second: SS_Run_Basic_3
+  - first:
+      213: 856699769279048170
+    second: SS_Run_Basic_4
+  - first:
+      213: 1114367644247681460
+    second: SS_Run_Basic_5
+  - first:
+      213: 669480630362329748
+    second: SS_Run_Basic_6
+  - first:
+      213: -7243641104148278694
+    second: SS_Run_Basic_7
+  - first:
+      213: -6885932779037997351
+    second: SS_Run_Basic_8
+  - first:
+      213: 1079867938642508273
+    second: SS_Run_Basic_9
+  - first:
+      213: -612494803373948161
+    second: SS_Run_Basic_10
+  - first:
+      213: -650750359930905889
+    second: SS_Run_Basic_11
+  - first:
+      213: -6239352030386500405
+    second: SS_Run_Basic_12
+  - first:
+      213: 2083244681606151936
+    second: SS_Run_Basic_13
+  - first:
+      213: -7751193352501292469
+    second: SS_Run_Basic_14
+  - first:
+      213: -4200926728614719709
+    second: SS_Run_Basic_15
+  - first:
+      213: 3548001059786611049
+    second: SS_Run_Basic_16
+  - first:
+      213: 6733987211960151221
+    second: SS_Run_Basic_17
+  - first:
+      213: -4625604776587125318
+    second: SS_Run_Basic_18
+  - first:
+      213: -7830766202921703524
+    second: SS_Run_Basic_19
+  - first:
+      213: -7490745410421806369
+    second: SS_Run_Basic_20
+  - first:
+      213: -6960148411579980026
+    second: SS_Run_Basic_21
+  - first:
+      213: 6319448670035707042
+    second: SS_Run_Basic_22
+  - first:
+      213: -2147151339104364268
+    second: SS_Run_Basic_23
+  - first:
+      213: -2327330510781363754
+    second: SS_Run_Basic_24
+  - first:
+      213: 6217397198117569089
+    second: SS_Run_Basic_25
+  - first:
+      213: -3596083675390778271
+    second: SS_Run_Basic_26
+  - first:
+      213: 6568026534857636084
+    second: SS_Run_Basic_27
+  - first:
+      213: 8099803428067233196
+    second: SS_Run_Basic_28
+  - first:
+      213: -5938601079802216327
+    second: SS_Run_Basic_29
+  - first:
+      213: 7984323028813950446
+    second: SS_Run_Basic_30
+  - first:
+      213: -3075322662617333040
+    second: SS_Run_Basic_31
+  - first:
+      213: 5693523963909351048
+    second: SS_Run_Basic_32
+  - first:
+      213: -3238449139176522110
+    second: SS_Run_Basic_33
+  - first:
+      213: -5112291487244922465
+    second: SS_Run_Basic_34
+  - first:
+      213: 27849009907268179
+    second: SS_Run_Basic_35
+  - first:
+      213: 5425715381639088340
+    second: SS_Run_Basic_36
+  - first:
+      213: -5796002565402409210
+    second: SS_Run_Basic_37
+  - first:
+      213: -5091738271014836918
+    second: SS_Run_Basic_38
+  - first:
+      213: -1952580472123031980
+    second: SS_Run_Basic_39
+  - first:
+      213: -8668451063755492332
+    second: SS_Run_Basic_40
+  - first:
+      213: -925600408498727282
+    second: SS_Run_Basic_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SS_Run_Basic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ea4acdcda0970a0800000000000000
+      internalID: -6883458611748229606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Run_Basic_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ac3f43a3d5cf5d0800000000000000
+      internalID: -3027442344921937374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Run_Basic_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cdb5b71417d37e0800000000000000
+      internalID: -1784145351312417690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Run_Basic_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6dc916465d13c80800000000000000
+      internalID: -8344654007429704027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Run_Basic_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae96903b6eb93eb00800000000000000
+      internalID: 856699769279048170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SS_Run_Basic_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b96290e777077f00800000000000000
+      internalID: 1114367644247681460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1161169e47078954780c46e0af8fe8c1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1000.0,"y":1000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SS_Run_Basic_0: -6883458611748229606
+      SS_Run_Basic_1: -3027442344921937374
+      SS_Run_Basic_2: -1784145351312417690
+      SS_Run_Basic_3: -8344654007429704027
+      SS_Run_Basic_4: 856699769279048170
+      SS_Run_Basic_5: 1114367644247681460
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

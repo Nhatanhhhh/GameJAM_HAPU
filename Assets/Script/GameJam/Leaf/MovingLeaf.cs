@@ -4,6 +4,8 @@ using UnityEngine;
 public class MovingLeaf : MonoBehaviour
 {
     [Header("CONFIG")]
+    public LeafType leafType = LeafType.Normal;
+
     public int maxMoves = 3; // số lần được phép kéo
     private int remainingMoves;
 
@@ -42,17 +44,37 @@ public class MovingLeaf : MonoBehaviour
             //rb.bodyType = RigidbodyType2D.Kinematic;
             rb.linearVelocity = Vector2.zero;
             rb.angularVelocity = 0f;
-
             rb.constraints = RigidbodyConstraints2D.FreezeAll; // khóa mọi chuyển động
-
             Debug.Log($"🧍 Người chơi đang đứng trên {name}, khóa vật lý!");
         }
         else
         {
             // Mở lại vật lý
-            rb.constraints = RigidbodyConstraints2D.None;
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation; // chỉ khóa xoay
+            ApplyDefaultConstraints();
             Debug.Log($"✅ Người chơi rời khỏi {name}, mở lại vật lý!");
+        }
+    }
+
+    // Áp constraint mặc định theo loại lá
+    private void ApplyDefaultConstraints()
+    {
+        switch (leafType)
+        {
+            case LeafType.Moving:
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                break;
+
+            case LeafType.MovingY:
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionX;
+                break;
+
+            case LeafType.MovingX:
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+                break;
+
+            default:
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+                break;
         }
     }
 

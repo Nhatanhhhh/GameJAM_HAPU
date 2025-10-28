@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: da5b7f57c53f82a428dea524656db0c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2191906940430776389
+    second: 1tone_loxo_0
+  - first:
+      213: -7935058609400530247
+    second: 1tone_loxo_1
+  - first:
+      213: -1288774187769140801
+    second: 1tone_loxo_2
+  - first:
+      213: 7649866752358621194
+    second: 1tone_loxo_3
+  - first:
+      213: 6629766443097683455
+    second: 1tone_loxo_4
+  - first:
+      213: 4289078707209934609
+    second: 1tone_loxo_5
+  - first:
+      213: 3686833214894371935
+    second: 1tone_loxo_6
+  - first:
+      213: 5017644456729886431
+    second: 1tone_loxo_7
+  - first:
+      213: -3952435890884927799
+    second: 1tone_loxo_8
+  - first:
+      213: 363698728917183541
+    second: 1tone_loxo_9
+  - first:
+      213: 3865543429339821203
+    second: 1tone_loxo_10
+  - first:
+      213: 5534585338071494512
+    second: 1tone_loxo_11
+  - first:
+      213: 8372456254644348716
+    second: 1tone_loxo_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.8624987, y: 0.50472313}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 1357, y: 203, z: 0, w: 654}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1tone_loxo_0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1090
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548f615cfb73b6e10800000000000000
+      internalID: 2191906940430776389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_1
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 278
+        width: 705
+        height: 1041
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bab6ca8c3201e190800000000000000
+      internalID: -7935058609400530247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 302
+        width: 37
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9e35654ba5d1ee0800000000000000
+      internalID: -1288774187769140801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_3
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 306
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a002861d749c92a60800000000000000
+      internalID: 7649866752358621194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_4
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 295
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff574a83479a10c50800000000000000
+      internalID: 6629766443097683455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_5
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 297
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11790f41c5ed58b30800000000000000
+      internalID: 4289078707209934609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_6
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 280
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54f3e776434a2330800000000000000
+      internalID: 3686833214894371935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_7
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 265
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdeb79c7c0142a540800000000000000
+      internalID: 5017644456729886431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_8
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 280
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce9c468f702629c0800000000000000
+      internalID: -3952435890884927799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_9
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 289
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cae56211e1c0500800000000000000
+      internalID: 363698728917183541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_10
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 265
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39435a9b44b25a530800000000000000
+      internalID: 3865543429339821203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_11
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 265
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f26de9a0ccecc40800000000000000
+      internalID: 5534585338071494512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1tone_loxo_12
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 265
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27e29bba90f03470800000000000000
+      internalID: 8372456254644348716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1tone_loxo_0: 2191906940430776389
+      1tone_loxo_1: -7935058609400530247
+      1tone_loxo_10: 3865543429339821203
+      1tone_loxo_11: 5534585338071494512
+      1tone_loxo_12: 8372456254644348716
+      1tone_loxo_2: -1288774187769140801
+      1tone_loxo_3: 7649866752358621194
+      1tone_loxo_4: 6629766443097683455
+      1tone_loxo_5: 4289078707209934609
+      1tone_loxo_6: 3686833214894371935
+      1tone_loxo_7: 5017644456729886431
+      1tone_loxo_8: -3952435890884927799
+      1tone_loxo_9: 363698728917183541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

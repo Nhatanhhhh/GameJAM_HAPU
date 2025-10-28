@@ -15,7 +15,8 @@ public class CoilLeaf : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f); // reset vận tốc dọc
                 rb.AddForce(Vector2.up * bounceForce, ForceMode2D.Impulse);
-                Debug.Log($"🌀 CoilLeaf: Đẩy {collision.collider.name} lên với lực {bounceForce}");
+                //Debug.Log($"🌀 CoilLeaf: Đẩy {collision.collider.name} lên với lực {bounceForce}");
+                AudioManager.Instance.PlaySFX("coilLeafSFX");
             }
         }
     }

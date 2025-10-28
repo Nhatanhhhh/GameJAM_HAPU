@@ -37,8 +37,8 @@ public class JumpGameManager : MonoBehaviour
         isGameWon = true;
         Debug.Log("PLAYER HAS WON THE GAME!");
 
-        UIManager.Instance.UpdateFinalScore();
-        UIManager.Instance.ShowWinPanle();
+        // UIManager.Instance.UpdateFinalScore();
+        // UIManager.Instance.ShowWinPanle();
 
         // Dừng game lại
         Time.timeScale = 0f;

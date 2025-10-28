@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7521657676795885130}
   - component: {fileID: 6601905943595310941}
   - component: {fileID: 6207043234176955249}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SuperPhantomLeaf
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.47, y: -0.82, z: 0}
-  m_LocalScale: {x: 3.3914, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,8 +82,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0.3754716, b: 0.73969686, a: 1}
+  m_Sprite: {fileID: 21300000, guid: add4f6c597f8d3e4d8e5f4fb8bb1b5f8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -127,17 +127,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.19077528, y: 3.4848218}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3.462143, y: 9.055515}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.8568761, y: 2.0174656}
   m_EdgeRadius: 0
 --- !u!61 &6601905943595310941
 BoxCollider2D:
@@ -173,17 +173,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.19077563, y: 2.9888062}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 3.462143, y: 9.055515}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.9077492, y: 0.92368984}
   m_EdgeRadius: 0
 --- !u!114 &6207043234176955249
 MonoBehaviour:
@@ -197,6 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e763541ad129794b86856c3ed8e8525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SuperPhantomLeaf
-  solidCollider: {fileID: 0}
-  triggerZone: {fileID: 0}
+  solidCollider: {fileID: 6601905943595310941}
+  triggerZone: {fileID: 7521657676795885130}
   heldObject: {fileID: 0}
+  heldFadeOpacity: 0.7

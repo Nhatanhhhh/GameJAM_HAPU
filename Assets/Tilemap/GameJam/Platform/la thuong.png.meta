@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: d7169fc757636ed42a421d7e509365c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 359948352984841045
+    second: la thuong_0
+  - first:
+      213: 188639813418427722
+    second: la thuong_1
+  - first:
+      213: -3459533947917094551
+    second: la thuong_2
+  - first:
+      213: -495726996305928926
+    second: la thuong_3
+  - first:
+      213: 7048256126038601970
+    second: la thuong_4
+  - first:
+      213: 1957949480396096686
+    second: la thuong_5
+  - first:
+      213: -3824120227712629549
+    second: la thuong_6
+  - first:
+      213: 7525198564201544714
+    second: la thuong_7
+  - first:
+      213: 1157420016186986244
+    second: la thuong_8
+  - first:
+      213: 2124501029546515447
+    second: la thuong_9
+  - first:
+      213: -6712467481400787093
+    second: la thuong_10
+  - first:
+      213: 6768861957906959276
+    second: la thuong_11
+  - first:
+      213: -476217818299411322
+    second: la thuong_12
+  - first:
+      213: 3175781065411773239
+    second: la thuong_13
+  - first:
+      213: -6648731457483376297
+    second: la thuong_14
+  - first:
+      213: 4845692777177003173
+    second: la thuong_15
+  - first:
+      213: 9196223397391237732
+    second: la thuong_16
+  - first:
+      213: 7785152400592378032
+    second: la thuong_17
+  - first:
+      213: -1977068574209746481
+    second: la thuong_18
+  - first:
+      213: -6359886806304064776
+    second: la thuong_19
+  - first:
+      213: -7438875729186077577
+    second: la thuong_20
+  - first:
+      213: -8056956464616512306
+    second: la thuong_21
+  - first:
+      213: 1910098137761624531
+    second: la thuong_22
+  - first:
+      213: -4574170177724523326
+    second: la thuong_23
+  - first:
+      213: -6486795249324700720
+    second: la thuong_24
+  - first:
+      213: -9170999328542850951
+    second: la thuong_25
+  - first:
+      213: 7168298978475629772
+    second: la thuong_26
+  - first:
+      213: 6021732725470720646
+    second: la thuong_27
+  - first:
+      213: -2771749011915266270
+    second: la thuong_28
+  - first:
+      213: 5200975608675163876
+    second: la thuong_29
+  - first:
+      213: -7276946392635471863
+    second: la thuong_30
+  - first:
+      213: 520430174486229471
+    second: la thuong_31
+  - first:
+      213: 7845224715018808152
+    second: la thuong_32
+  - first:
+      213: 3135474921969920037
+    second: la thuong_33
+  - first:
+      213: 7729746069583930091
+    second: la thuong_34
+  - first:
+      213: 5309254560404883171
+    second: la thuong_35
+  - first:
+      213: -5923077016847438481
+    second: la thuong_36
+  - first:
+      213: -3275467047844684484
+    second: la thuong_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: la thuong_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 194
+        width: 5710
+        height: 13086
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bf525be1bcef400800000000000000
+      internalID: 359948352984841045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_1
+      rect:
+        serializedVersion: 2
+        x: 5739
+        y: 11753
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a452d4d29ee2e9200800000000000000
+      internalID: 188639813418427722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_2
+      rect:
+        serializedVersion: 2
+        x: 5678
+        y: 11596
+        width: 51
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9613ff924344dffc0800000000000000
+      internalID: -3459533947917094551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_3
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 169
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d1d9f5ce2de19f0800000000000000
+      internalID: -495726996305928926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_4
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 174
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f070867a9f60d160800000000000000
+      internalID: 7048256126038601970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_5
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 187
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea48b23cda80c2b10800000000000000
+      internalID: 1957949480396096686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_6
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 155
+        width: 73
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d48dc8f9eefdeac0800000000000000
+      internalID: -3824120227712629549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_7
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 183
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c33835930ee6860800000000000000
+      internalID: 7525198564201544714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_8
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 174
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f80c85f5bff0010800000000000000
+      internalID: 1157420016186986244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_9
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 0
+        width: 87
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb52172e6ebb7d10800000000000000
+      internalID: 2124501029546515447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_10
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 143
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fbebcc36688d2a0800000000000000
+      internalID: -6712467481400787093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_11
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 164
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab03b67614dfed50800000000000000
+      internalID: 6768861957906959276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_12
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 155
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6845d88da622469f0800000000000000
+      internalID: -476217818299411322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_13
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 160
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733c7409d04a21c20800000000000000
+      internalID: 3175781065411773239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_14
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 156
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759fcb547f5fab3a0800000000000000
+      internalID: -6648731457483376297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_15
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 120
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4bf4248eb5f3340800000000000000
+      internalID: 4845692777177003173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_16
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 106
+        width: 158
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46204acc47c8f9f70800000000000000
+      internalID: 9196223397391237732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_17
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 125
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8969f5cda6a0c60800000000000000
+      internalID: 7785152400592378032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_18
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 94
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9d3a15b9a0094e0800000000000000
+      internalID: -1977068574209746481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_19
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 106
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa7d8255a42db7a0800000000000000
+      internalID: -6359886806304064776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_20
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 102
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774c699efedc3c890800000000000000
+      internalID: -7438875729186077577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_21
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 39
+        width: 127
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4eeb378c0ff2090800000000000000
+      internalID: -8056956464616512306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_22
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 93
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1ba6bd228028a10800000000000000
+      internalID: 1910098137761624531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_23
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 85
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc5b8655784580c0800000000000000
+      internalID: -4574170177724523326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_24
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 76
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db4f49d6164af5a0800000000000000
+      internalID: -6486795249324700720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_25
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9708bd263b01ab080800000000000000
+      internalID: -9170999328542850951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_26
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 53
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cccd5df01f9ea7360800000000000000
+      internalID: 7168298978475629772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_27
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 39
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682f602620e719350800000000000000
+      internalID: 6021732725470720646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_28
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 39
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227204285f4c889d0800000000000000
+      internalID: -2771749011915266270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_29
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 27
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eedd8892c39d2840800000000000000
+      internalID: 5200975608675163876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_30
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 0
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90807619fc7130b90800000000000000
+      internalID: -7276946392635471863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_31
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 21
+        width: 72
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd175a08c70f83700800000000000000
+      internalID: 520430174486229471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_32
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 21
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bafc10056dfdc60800000000000000
+      internalID: 7845224715018808152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_33
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528a92e34d1738b20800000000000000
+      internalID: 3135474921969920037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_34
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 0
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2a589a813954b60800000000000000
+      internalID: 7729746069583930091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_35
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e64e0f94e24ea940800000000000000
+      internalID: 5309254560404883171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_36
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 0
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d2781c5d00dcda0800000000000000
+      internalID: -5923077016847438481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: la thuong_37
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d58bbf2143b82d0800000000000000
+      internalID: -3275467047844684484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      la thuong_0: 359948352984841045
+      la thuong_1: 188639813418427722
+      la thuong_10: -6712467481400787093
+      la thuong_11: 6768861957906959276
+      la thuong_12: -476217818299411322
+      la thuong_13: 3175781065411773239
+      la thuong_14: -6648731457483376297
+      la thuong_15: 4845692777177003173
+      la thuong_16: 9196223397391237732
+      la thuong_17: 7785152400592378032
+      la thuong_18: -1977068574209746481
+      la thuong_19: -6359886806304064776
+      la thuong_2: -3459533947917094551
+      la thuong_20: -7438875729186077577
+      la thuong_21: -8056956464616512306
+      la thuong_22: 1910098137761624531
+      la thuong_23: -4574170177724523326
+      la thuong_24: -6486795249324700720
+      la thuong_25: -9170999328542850951
+      la thuong_26: 7168298978475629772
+      la thuong_27: 6021732725470720646
+      la thuong_28: -2771749011915266270
+      la thuong_29: 5200975608675163876
+      la thuong_3: -495726996305928926
+      la thuong_30: -7276946392635471863
+      la thuong_31: 520430174486229471
+      la thuong_32: 7845224715018808152
+      la thuong_33: 3135474921969920037
+      la thuong_34: 7729746069583930091
+      la thuong_35: 5309254560404883171
+      la thuong_36: -5923077016847438481
+      la thuong_37: -3275467047844684484
+      la thuong_4: 7048256126038601970
+      la thuong_5: 1957949480396096686
+      la thuong_6: -3824120227712629549
+      la thuong_7: 7525198564201544714
+      la thuong_8: 1157420016186986244
+      la thuong_9: 2124501029546515447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

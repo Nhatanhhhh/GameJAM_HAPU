@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 82b5ed7e1e1e2104d989c9511c55321a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2198772616528491259
+    second: matnuoc_map2_3_0
+  - first:
+      213: -6640018548659181942
+    second: matnuoc_map2_3_1
+  - first:
+      213: 5216702257033635644
+    second: matnuoc_map2_3_2
+  - first:
+      213: 7603779905251546727
+    second: matnuoc_map2_3_3
+  - first:
+      213: -6401947135082177276
+    second: matnuoc_map2_3_4
+  - first:
+      213: 2671021541537406167
+    second: matnuoc_map2_3_5
+  - first:
+      213: 8177606502587035460
+    second: matnuoc_map2_3_6
+  - first:
+      213: 1942478258425969366
+    second: matnuoc_map2_3_7
+  - first:
+      213: 8605118781401377069
+    second: matnuoc_map2_3_8
+  - first:
+      213: 6358682697954109196
+    second: matnuoc_map2_3_9
+  - first:
+      213: -4733997742582390924
+    second: matnuoc_map2_3_10
+  - first:
+      213: 1145096933984940477
+    second: matnuoc_map2_3_11
+  - first:
+      213: 6046943625320251605
+    second: matnuoc_map2_3_12
+  - first:
+      213: -8799463406030080727
+    second: matnuoc_map2_3_13
+  - first:
+      213: 5637227841076610259
+    second: matnuoc_map2_3_14
+  - first:
+      213: 1341764158977267781
+    second: matnuoc_map2_3_15
+  - first:
+      213: -7583041903995179102
+    second: matnuoc_map2_3_16
+  - first:
+      213: -8799790904093395016
+    second: matnuoc_map2_3_17
+  - first:
+      213: -2225830534366401275
+    second: matnuoc_map2_3_18
+  - first:
+      213: 8934598941406411005
+    second: matnuoc_map2_3_19
+  - first:
+      213: -6159919897101371525
+    second: matnuoc_map2_3_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: matnuoc_map2_3_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 375
+        width: 211
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d86f174f36c71e0800000000000000
+      internalID: -2198772616528491259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 1039
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a862a217f4ae9d3a0800000000000000
+      internalID: -6640018548659181942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_2
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 428
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37e7714013756840800000000000000
+      internalID: 5216702257033635644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 382
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76695ca898d068960800000000000000
+      internalID: 7603779905251546727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dd896eff6b727a0800000000000000
+      internalID: -6401947135082177276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 50
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd0cab0ff511520800000000000000
+      internalID: 2671021541537406167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_6
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fef9b89c1bc7170800000000000000
+      internalID: 8177606502587035460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da36613fa115fa10800000000000000
+      internalID: 1942478258425969366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 147
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29a87790f58b6770800000000000000
+      internalID: 8605118781401377069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 151
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c072afa59349e3850800000000000000
+      internalID: 6358682697954109196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 143
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f10e982267d4eb0800000000000000
+      internalID: -4733997742582390924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 146
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1bf8f289334ef00800000000000000
+      internalID: 1145096933984940477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 140
+        width: 289
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0c60c603f0be350800000000000000
+      internalID: 6046943625320251605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 33
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925378d57a602e580800000000000000
+      internalID: -8799463406030080727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 24
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d44059aad47b3e40800000000000000
+      internalID: 5637227841076610259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548d034c467ee9210800000000000000
+      internalID: 1341764158977267781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 30
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af2773a09f93c690800000000000000
+      internalID: -7583041903995179102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_17
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 27
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7bcc7cbccd0e580800000000000000
+      internalID: -8799790904093395016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 22
+        width: 81
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d6fd40ce24c11e0800000000000000
+      internalID: -2225830534366401275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_19
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df83c1156621efb70800000000000000
+      internalID: 8934598941406411005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: matnuoc_map2_3_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7779608d71938aa0800000000000000
+      internalID: -6159919897101371525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      matnuoc_map2_3_0: -2198772616528491259
+      matnuoc_map2_3_1: -6640018548659181942
+      matnuoc_map2_3_10: -4733997742582390924
+      matnuoc_map2_3_11: 1145096933984940477
+      matnuoc_map2_3_12: 6046943625320251605
+      matnuoc_map2_3_13: -8799463406030080727
+      matnuoc_map2_3_14: 5637227841076610259
+      matnuoc_map2_3_15: 1341764158977267781
+      matnuoc_map2_3_16: -7583041903995179102
+      matnuoc_map2_3_17: -8799790904093395016
+      matnuoc_map2_3_18: -2225830534366401275
+      matnuoc_map2_3_19: 8934598941406411005
+      matnuoc_map2_3_2: 5216702257033635644
+      matnuoc_map2_3_20: -6159919897101371525
+      matnuoc_map2_3_3: 7603779905251546727
+      matnuoc_map2_3_4: -6401947135082177276
+      matnuoc_map2_3_5: 2671021541537406167
+      matnuoc_map2_3_6: 8177606502587035460
+      matnuoc_map2_3_7: 1942478258425969366
+      matnuoc_map2_3_8: 8605118781401377069
+      matnuoc_map2_3_9: 6358682697954109196
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

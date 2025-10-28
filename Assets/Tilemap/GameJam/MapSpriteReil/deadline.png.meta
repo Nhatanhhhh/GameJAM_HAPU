@@ -1,0 +1,3003 @@
+fileFormatVersion: 2
+guid: 5925b26aa604f0b459410f901097ed8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3981345213585239988
+    second: deadline_0
+  - first:
+      213: 6731410120118226267
+    second: deadline_1
+  - first:
+      213: -3204193777966131382
+    second: deadline_2
+  - first:
+      213: 659998025881675138
+    second: deadline_3
+  - first:
+      213: 8126281238648444990
+    second: deadline_4
+  - first:
+      213: 5656892936775584106
+    second: deadline_5
+  - first:
+      213: 9115535711495921752
+    second: deadline_6
+  - first:
+      213: 5454312504993054246
+    second: deadline_7
+  - first:
+      213: 1396225750868687348
+    second: deadline_8
+  - first:
+      213: 3825652101014031294
+    second: deadline_9
+  - first:
+      213: 1020587853869792634
+    second: deadline_10
+  - first:
+      213: 7283637616999838165
+    second: deadline_11
+  - first:
+      213: 1871774592142286883
+    second: deadline_12
+  - first:
+      213: -3054249931777678265
+    second: deadline_13
+  - first:
+      213: -8713720969679530955
+    second: deadline_14
+  - first:
+      213: 4449219874236887820
+    second: deadline_15
+  - first:
+      213: -1199998678067680909
+    second: deadline_16
+  - first:
+      213: -2208732424411651287
+    second: deadline_17
+  - first:
+      213: 2357971497476127715
+    second: deadline_18
+  - first:
+      213: 7851838350245911929
+    second: deadline_19
+  - first:
+      213: -8349470030323536873
+    second: deadline_20
+  - first:
+      213: 639615197237419713
+    second: deadline_21
+  - first:
+      213: -8165613037099494107
+    second: deadline_22
+  - first:
+      213: 2371698555440661690
+    second: deadline_23
+  - first:
+      213: 8998486196923774556
+    second: deadline_24
+  - first:
+      213: -6622806671809539835
+    second: deadline_25
+  - first:
+      213: 4292603716655983592
+    second: deadline_26
+  - first:
+      213: 6795133577781040486
+    second: deadline_27
+  - first:
+      213: 8724575921044549213
+    second: deadline_28
+  - first:
+      213: -2595518174036012463
+    second: deadline_29
+  - first:
+      213: -8566274074739185138
+    second: deadline_30
+  - first:
+      213: 2073356653912631417
+    second: deadline_31
+  - first:
+      213: 6727443821946841157
+    second: deadline_32
+  - first:
+      213: -722236036496745484
+    second: deadline_33
+  - first:
+      213: 8379209155828668591
+    second: deadline_34
+  - first:
+      213: -7222850118340724692
+    second: deadline_35
+  - first:
+      213: -5542910615554790930
+    second: deadline_36
+  - first:
+      213: 7058312351794546673
+    second: deadline_37
+  - first:
+      213: -6146905606950121994
+    second: deadline_38
+  - first:
+      213: -2810096858094029412
+    second: deadline_39
+  - first:
+      213: -6494835085597420547
+    second: deadline_40
+  - first:
+      213: 1300462893668696339
+    second: deadline_41
+  - first:
+      213: 3738245570864641195
+    second: deadline_42
+  - first:
+      213: -5002133096854977922
+    second: deadline_43
+  - first:
+      213: 1156878322827984395
+    second: deadline_44
+  - first:
+      213: 699867209416362127
+    second: deadline_45
+  - first:
+      213: 3025847523474153996
+    second: deadline_46
+  - first:
+      213: 8899154634335526842
+    second: deadline_47
+  - first:
+      213: -1878011866830728923
+    second: deadline_48
+  - first:
+      213: 3632022996127623730
+    second: deadline_49
+  - first:
+      213: -2874249231870222443
+    second: deadline_50
+  - first:
+      213: 4427449607391248791
+    second: deadline_51
+  - first:
+      213: -3503873680081496309
+    second: deadline_52
+  - first:
+      213: -5224739501359581224
+    second: deadline_53
+  - first:
+      213: 2973514091859741997
+    second: deadline_54
+  - first:
+      213: 1712164586428219900
+    second: deadline_55
+  - first:
+      213: -7025265698708704710
+    second: deadline_56
+  - first:
+      213: 8534730656771682886
+    second: deadline_57
+  - first:
+      213: 6452218600916257970
+    second: deadline_58
+  - first:
+      213: 5130967724730923913
+    second: deadline_59
+  - first:
+      213: 3805920373116515206
+    second: deadline_60
+  - first:
+      213: -3355354158813301869
+    second: deadline_61
+  - first:
+      213: -8388914104433505541
+    second: deadline_62
+  - first:
+      213: -8322396236690970919
+    second: deadline_63
+  - first:
+      213: 878698380770117453
+    second: deadline_64
+  - first:
+      213: -8413645181035645556
+    second: deadline_65
+  - first:
+      213: 6464086307807129295
+    second: deadline_66
+  - first:
+      213: 6157131656205187376
+    second: deadline_67
+  - first:
+      213: 4240247827990639183
+    second: deadline_68
+  - first:
+      213: 9093536103347481092
+    second: deadline_69
+  - first:
+      213: 9108435083889978191
+    second: deadline_70
+  - first:
+      213: 2327897137203725148
+    second: deadline_71
+  - first:
+      213: -671530048637573132
+    second: deadline_72
+  - first:
+      213: -1192169032162325973
+    second: deadline_73
+  - first:
+      213: 812231792442680650
+    second: deadline_74
+  - first:
+      213: -7726272934202714684
+    second: deadline_75
+  - first:
+      213: 4984050943052287115
+    second: deadline_76
+  - first:
+      213: -9184495455443589393
+    second: deadline_77
+  - first:
+      213: 1292110716368743721
+    second: deadline_78
+  - first:
+      213: 4399165560252036466
+    second: deadline_79
+  - first:
+      213: 4298153807360345494
+    second: deadline_80
+  - first:
+      213: 8412756294555545752
+    second: deadline_81
+  - first:
+      213: 4349924505494533977
+    second: deadline_82
+  - first:
+      213: 8444195516405366041
+    second: deadline_83
+  - first:
+      213: 4154422720147312002
+    second: deadline_84
+  - first:
+      213: 2358401158602115527
+    second: deadline_85
+  - first:
+      213: -2263877474556667650
+    second: deadline_86
+  - first:
+      213: 2363328344709234409
+    second: deadline_87
+  - first:
+      213: 5486402617203640191
+    second: deadline_88
+  - first:
+      213: 1289409598431448315
+    second: deadline_89
+  - first:
+      213: 4607752329965401280
+    second: deadline_90
+  - first:
+      213: -5971325728694535335
+    second: deadline_91
+  - first:
+      213: -1866510773394599467
+    second: deadline_92
+  - first:
+      213: -4921088158785345183
+    second: deadline_93
+  - first:
+      213: 4528632958717952973
+    second: deadline_94
+  - first:
+      213: -480132872171395008
+    second: deadline_95
+  - first:
+      213: -385956290481650468
+    second: deadline_96
+  - first:
+      213: 3788621069772152815
+    second: deadline_97
+  - first:
+      213: 540943687226291129
+    second: deadline_98
+  - first:
+      213: 6694751723498525904
+    second: deadline_99
+  - first:
+      213: -5387135341367779777
+    second: deadline_100
+  - first:
+      213: -5939221610305113347
+    second: deadline_101
+  - first:
+      213: 6492546894779998985
+    second: deadline_102
+  - first:
+      213: -2220897280212405261
+    second: deadline_103
+  - first:
+      213: 1204827523003134000
+    second: deadline_104
+  - first:
+      213: -8557219910224619298
+    second: deadline_105
+  - first:
+      213: -8971934116049431680
+    second: deadline_106
+  - first:
+      213: -3815829582704577307
+    second: deadline_107
+  - first:
+      213: -134565642518613923
+    second: deadline_108
+  - first:
+      213: -8709881484257048864
+    second: deadline_109
+  - first:
+      213: 5498525170268987484
+    second: deadline_110
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deadline_0
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1068
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf23ffa064904730800000000000000
+      internalID: 3981345213585239988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_1
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1070
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dcd17f6d5ca6d50800000000000000
+      internalID: 6731410120118226267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_2
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 1060
+        width: 87
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47dfc84cba6883d0800000000000000
+      internalID: -3204193777966131382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_3
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1077
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285e22d25b8c82900800000000000000
+      internalID: 659998025881675138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_4
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1077
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38df8e4bb956c070800000000000000
+      internalID: 8126281238648444990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_5
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1079
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69ccec8722518e40800000000000000
+      internalID: 5656892936775584106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_6
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1079
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8502a15fe63e08e70800000000000000
+      internalID: 9115535711495921752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_7
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1079
+        width: 40
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ef41a335c91bb40800000000000000
+      internalID: 5454312504993054246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_8
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1081
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9f7c24ce3606310800000000000000
+      internalID: 1396225750868687348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_9
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1085
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb0b231152771530800000000000000
+      internalID: 3825652101014031294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_10
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1085
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dbcfbee3bd92e00800000000000000
+      internalID: 1020587853869792634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_11
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1085
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1b2f182dda41560800000000000000
+      internalID: 7283637616999838165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_12
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1087
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3202e301311e9f910800000000000000
+      internalID: 1871774592142286883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_13
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 1091
+        width: 159
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74461218edf1d95d0800000000000000
+      internalID: -3054249931777678265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_14
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1094
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534116202f4a21780800000000000000
+      internalID: -8713720969679530955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_15
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1094
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c037f7317edcebd30800000000000000
+      internalID: 4449219874236887820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_16
+      rect:
+        serializedVersion: 2
+        x: 2797
+        y: 1094
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37966d66f8fb85fe0800000000000000
+      internalID: -1199998678067680909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_17
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 1095
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9236e07ff810951e0800000000000000
+      internalID: -2208732424411651287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_18
+      rect:
+        serializedVersion: 2
+        x: 3002
+        y: 1097
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb7f89759239b020800000000000000
+      internalID: 2357971497476127715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_19
+      rect:
+        serializedVersion: 2
+        x: 3036
+        y: 1097
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d5234f06557fc60800000000000000
+      internalID: 7851838350245911929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_20
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 1098
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cabcbae39b02c80800000000000000
+      internalID: -8349470030323536873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_21
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 1098
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce174012ae50e800800000000000000
+      internalID: 639615197237419713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_22
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 1101
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525d26eb43aedae80800000000000000
+      internalID: -8165613037099494107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_23
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 1102
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab409573547f9e020800000000000000
+      internalID: 2371698555440661690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_24
+      rect:
+        serializedVersion: 2
+        x: 3317
+        y: 1101
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56b5e3258b01ec70800000000000000
+      internalID: 8998486196923774556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_25
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 972
+        width: 51
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50194becb601714a0800000000000000
+      internalID: -6622806671809539835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1072
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb2dcc4654629b30800000000000000
+      internalID: 4292603716655983592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1071
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665d7f0acf92d4e50800000000000000
+      internalID: 6795133577781040486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_28
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 1071
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e69cd439be31970800000000000000
+      internalID: 8724575921044549213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_29
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1073
+        width: 76
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152538ce8fddafbd0800000000000000
+      internalID: -2595518174036012463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 3840
+        height: 983
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a68867d1b7e1980800000000000000
+      internalID: -8566274074739185138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_31
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 997
+        width: 61
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978a72144ea06cc10800000000000000
+      internalID: 2073356653912631417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_32
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 997
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548a985338eac5d50800000000000000
+      internalID: 6727443821946841157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_33
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 997
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb10a0c62a1af5f0800000000000000
+      internalID: -722236036496745484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_34
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 996
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa85edf055ee84470800000000000000
+      internalID: 8379209155828668591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_35
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 996
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28b96ee51843cb90800000000000000
+      internalID: -7222850118340724692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_36
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 995
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee96d1aa920a313b0800000000000000
+      internalID: -5542910615554790930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_37
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 995
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7477affa924f160800000000000000
+      internalID: 7058312351794546673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_38
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 999
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd81ed0bedc1baa0800000000000000
+      internalID: -6146905606950121994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_39
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 992
+        width: 84
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c953ddccbc78009d0800000000000000
+      internalID: -2810096858094029412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_40
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 999
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3d83896e5bdd5a0800000000000000
+      internalID: -6494835085597420547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_41
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 988
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31103b49c1c2c0210800000000000000
+      internalID: 1300462893668696339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_42
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 987
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba470966a8ae0e330800000000000000
+      internalID: 3738245570864641195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_43
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 986
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e720cba637ad49ab0800000000000000
+      internalID: -5002133096854977922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_44
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 1001
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ef28884be0e0010800000000000000
+      internalID: 1156878322827984395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_45
+      rect:
+        serializedVersion: 2
+        x: 3669
+        y: 984
+        width: 90
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88c437d48d66b900800000000000000
+      internalID: 699867209416362127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 659
+        width: 535
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c022c2d7a48fdf920800000000000000
+      internalID: 3025847523474153996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_47
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 233
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf17dc7df5208b70800000000000000
+      internalID: 8899154634335526842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_48
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 231
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52116914826ffe5e0800000000000000
+      internalID: -1878011866830728923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_49
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 240
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aac34fba9876230800000000000000
+      internalID: 3632022996127623730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_50
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 238
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f9f625d8d9c18d0800000000000000
+      internalID: -2874249231870222443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_51
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 230
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7918f75d5f5717d30800000000000000
+      internalID: 4427449607391248791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_52
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 228
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07d6e8c37dbf5fc0800000000000000
+      internalID: -3503873680081496309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_53
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 237
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7b289fa1ffd77b0800000000000000
+      internalID: -5224739501359581224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_54
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 220
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d0bebef4b044920800000000000000
+      internalID: 2973514091859741997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_55
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 236
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1ce03be94d2c710800000000000000
+      internalID: 1712164586428219900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_56
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 231
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a323bb7811e318e90800000000000000
+      internalID: -7025265698708704710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_57
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 202
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642338a3054717670800000000000000
+      internalID: 8534730656771682886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_58
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 203
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc08c8d1a2ea8950800000000000000
+      internalID: 6452218600916257970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_59
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 215
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bb49ae5fbd43740800000000000000
+      internalID: 5130967724730923913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_60
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 205
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683380b2a6851d430800000000000000
+      internalID: 3805920373116515206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 197
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393bd448b236f61d0800000000000000
+      internalID: -3355354158813301869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_62
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 201
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa0af18117949b80800000000000000
+      internalID: -8388914104433505541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_63
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 198
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6acf777b8e08c80800000000000000
+      internalID: -8322396236690970919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_64
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 199
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4783829583c13c00800000000000000
+      internalID: 878698380770117453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_65
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 187
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c857136094abc3b80800000000000000
+      internalID: -8413645181035645556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_66
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 198
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce6f4eaf3c05b950800000000000000
+      internalID: 6464086307807129295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_67
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 186
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0393c639e96827550800000000000000
+      internalID: 6157131656205187376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_68
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 180
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42f00b0fe268da30800000000000000
+      internalID: 4240247827990639183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_69
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 133
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a673808eab23e70800000000000000
+      internalID: 9093536103347481092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_70
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 152
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ba7f24379a76e70800000000000000
+      internalID: 9108435083889978191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_71
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 145
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c534da0dc1a5e4020800000000000000
+      internalID: 2327897137203725148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_72
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 151
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7e4fa8afe3ea6f0800000000000000
+      internalID: -671530048637573132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_73
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 116
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4eb5e490947fe0800000000000000
+      internalID: -1192169032162325973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_74
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 120
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4523d70380a54b00800000000000000
+      internalID: 812231792442680650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_75
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 132
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5d12fa3b3c6c490800000000000000
+      internalID: -7726272934202714684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_76
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 126
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c05131de7ea2540800000000000000
+      internalID: 4984050943052287115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_77
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 120
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe668197b0e1a8080800000000000000
+      internalID: -9184495455443589393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_78
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 112
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d62a3c9df7ee110800000000000000
+      internalID: 1292110716368743721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_79
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 118
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27574fee4c9fc0d30800000000000000
+      internalID: 4399165560252036466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_80
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 102
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695c4bd7d1c16ab30800000000000000
+      internalID: 4298153807360345494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_81
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 84
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8903ae6f64d10c470800000000000000
+      internalID: 8412756294555545752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_82
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 86
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957b4c57a490e5c30800000000000000
+      internalID: 4349924505494533977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_83
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 78
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91db949351fcf2570800000000000000
+      internalID: 8444195516405366041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_84
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 68
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d4131f37977a930800000000000000
+      internalID: 4154422720147312002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_85
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 36
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c94950cb59bab020800000000000000
+      internalID: 2358401158602115527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_86
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 62
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef89a027e671590e0800000000000000
+      internalID: -2263877474556667650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_87
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 52
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee710aab9a3cc020800000000000000
+      internalID: 2363328344709234409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_88
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 56
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f774235bc1e932c40800000000000000
+      internalID: 5486402617203640191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_89
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 56
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc4c7cb237e4e110800000000000000
+      internalID: 1289409598431448315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_90
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 42
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4f098c45602ff30800000000000000
+      internalID: 4607752329965401280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_91
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 36
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bf20f13e6912da0800000000000000
+      internalID: -5971325728694535335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_92
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 40
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1106e3752d816e0800000000000000
+      internalID: -1866510773394599467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_93
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 40
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169e7338468c4bbb0800000000000000
+      internalID: -4921088158785345183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_94
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 47
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc38286aeafe8de30800000000000000
+      internalID: 4528632958717952973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_95
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 21
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0486c3552b93659f0800000000000000
+      internalID: -480132872171395008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_96
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 24
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd483077ccec4aaf0800000000000000
+      internalID: -385956290481650468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_97
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 7
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef545c3ac2e39430800000000000000
+      internalID: 3788621069772152815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_98
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 28
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3fc90ea61d18700800000000000000
+      internalID: 540943687226291129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_99
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 20
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d45092e83988ec50800000000000000
+      internalID: 6694751723498525904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_100
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 0
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e12d403fc0d35b0800000000000000
+      internalID: -5387135341367779777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_101
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 27
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2b07ba965a39da0800000000000000
+      internalID: -5939221610305113347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_102
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 6
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9036de670092a1a50800000000000000
+      internalID: 6492546894779998985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_103
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 4
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3fe42c0b9cd21e0800000000000000
+      internalID: -2220897280212405261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_104
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 2
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030373caf3868b010800000000000000
+      internalID: 1204827523003134000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_105
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 12
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8592a64d5ae3980800000000000000
+      internalID: -8557219910224619298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_106
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 14
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0835aa0f4794d7380800000000000000
+      internalID: -8971934116049431680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_107
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 3
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4777f26337b0bc0800000000000000
+      internalID: -3815829582704577307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_108
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50b4b6d24de12ef0800000000000000
+      internalID: -134565642518613923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_109
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e64b1fdfe8402780800000000000000
+      internalID: -8709881484257048864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deadline_110
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 0
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c506d6a828fae4c40800000000000000
+      internalID: 5498525170268987484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deadline_0: 3981345213585239988
+      deadline_1: 6731410120118226267
+      deadline_10: 1020587853869792634
+      deadline_100: -5387135341367779777
+      deadline_101: -5939221610305113347
+      deadline_102: 6492546894779998985
+      deadline_103: -2220897280212405261
+      deadline_104: 1204827523003134000
+      deadline_105: -8557219910224619298
+      deadline_106: -8971934116049431680
+      deadline_107: -3815829582704577307
+      deadline_108: -134565642518613923
+      deadline_109: -8709881484257048864
+      deadline_11: 7283637616999838165
+      deadline_110: 5498525170268987484
+      deadline_12: 1871774592142286883
+      deadline_13: -3054249931777678265
+      deadline_14: -8713720969679530955
+      deadline_15: 4449219874236887820
+      deadline_16: -1199998678067680909
+      deadline_17: -2208732424411651287
+      deadline_18: 2357971497476127715
+      deadline_19: 7851838350245911929
+      deadline_2: -3204193777966131382
+      deadline_20: -8349470030323536873
+      deadline_21: 639615197237419713
+      deadline_22: -8165613037099494107
+      deadline_23: 2371698555440661690
+      deadline_24: 8998486196923774556
+      deadline_25: -6622806671809539835
+      deadline_26: 4292603716655983592
+      deadline_27: 6795133577781040486
+      deadline_28: 8724575921044549213
+      deadline_29: -2595518174036012463
+      deadline_3: 659998025881675138
+      deadline_30: -8566274074739185138
+      deadline_31: 2073356653912631417
+      deadline_32: 6727443821946841157
+      deadline_33: -722236036496745484
+      deadline_34: 8379209155828668591
+      deadline_35: -7222850118340724692
+      deadline_36: -5542910615554790930
+      deadline_37: 7058312351794546673
+      deadline_38: -6146905606950121994
+      deadline_39: -2810096858094029412
+      deadline_4: 8126281238648444990
+      deadline_40: -6494835085597420547
+      deadline_41: 1300462893668696339
+      deadline_42: 3738245570864641195
+      deadline_43: -5002133096854977922
+      deadline_44: 1156878322827984395
+      deadline_45: 699867209416362127
+      deadline_46: 3025847523474153996
+      deadline_47: 8899154634335526842
+      deadline_48: -1878011866830728923
+      deadline_49: 3632022996127623730
+      deadline_5: 5656892936775584106
+      deadline_50: -2874249231870222443
+      deadline_51: 4427449607391248791
+      deadline_52: -3503873680081496309
+      deadline_53: -5224739501359581224
+      deadline_54: 2973514091859741997
+      deadline_55: 1712164586428219900
+      deadline_56: -7025265698708704710
+      deadline_57: 8534730656771682886
+      deadline_58: 6452218600916257970
+      deadline_59: 5130967724730923913
+      deadline_6: 9115535711495921752
+      deadline_60: 3805920373116515206
+      deadline_61: -3355354158813301869
+      deadline_62: -8388914104433505541
+      deadline_63: -8322396236690970919
+      deadline_64: 878698380770117453
+      deadline_65: -8413645181035645556
+      deadline_66: 6464086307807129295
+      deadline_67: 6157131656205187376
+      deadline_68: 4240247827990639183
+      deadline_69: 9093536103347481092
+      deadline_7: 5454312504993054246
+      deadline_70: 9108435083889978191
+      deadline_71: 2327897137203725148
+      deadline_72: -671530048637573132
+      deadline_73: -1192169032162325973
+      deadline_74: 812231792442680650
+      deadline_75: -7726272934202714684
+      deadline_76: 4984050943052287115
+      deadline_77: -9184495455443589393
+      deadline_78: 1292110716368743721
+      deadline_79: 4399165560252036466
+      deadline_8: 1396225750868687348
+      deadline_80: 4298153807360345494
+      deadline_81: 8412756294555545752
+      deadline_82: 4349924505494533977
+      deadline_83: 8444195516405366041
+      deadline_84: 4154422720147312002
+      deadline_85: 2358401158602115527
+      deadline_86: -2263877474556667650
+      deadline_87: 2363328344709234409
+      deadline_88: 5486402617203640191
+      deadline_89: 1289409598431448315
+      deadline_9: 3825652101014031294
+      deadline_90: 4607752329965401280
+      deadline_91: -5971325728694535335
+      deadline_92: -1866510773394599467
+      deadline_93: -4921088158785345183
+      deadline_94: 4528632958717952973
+      deadline_95: -480132872171395008
+      deadline_96: -385956290481650468
+      deadline_97: 3788621069772152815
+      deadline_98: 540943687226291129
+      deadline_99: 6694751723498525904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

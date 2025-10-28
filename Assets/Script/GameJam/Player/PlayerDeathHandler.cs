@@ -11,7 +11,7 @@ public class PlayerDeathHandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("isDead status: " + isDead);
+        //Debug.Log("isDead status: " + isDead);
         // Nếu người chơi đã chết rồi thì không xử lý lại
         if (isDead) return;
 
@@ -19,13 +19,14 @@ public class PlayerDeathHandler : MonoBehaviour
         if (other.CompareTag(deathZoneTag))
         {
             isDead = true;
-            Debug.Log("PlayerDeathHandler: Người chơi đã rơi vào vùng chết (" + other.name + ")");
+            //Debug.Log("PlayerDeathHandler: Người chơi đã rơi vào vùng chết (" + other.name + ")");
+
 
 
             // Báo cho GameManager
             if (GameManager.Instance != null)
             {
-                Debug.Log("Báo cho GameManager về việc người chơi chết");
+                //Debug.Log("Báo cho GameManager về việc người chơi chết");
                 GameManager.Instance.GameOver();
             }
 

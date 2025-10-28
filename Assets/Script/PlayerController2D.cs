@@ -8,19 +8,14 @@ public class PlayerController2D : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
 
-
     private Animator animator;
     private Rigidbody2D rb;
     private PlayerInputActions inputActions;
     private PlayerStateMachine stateMachine;
 
-    // Biến trạng thái
     private bool isGrounded;
     private bool jumpRequested;
     private Vector2 moveInput;
-
-    // Biến cờ (flag) để giao tiếp giữa Update và FixedUpdate
-
 
     void Awake()
     {
@@ -33,67 +28,78 @@ public class PlayerController2D : MonoBehaviour
         inputActions.Enable();
 
         stateMachine = GetComponent<PlayerStateMachine>();
-        stateMachine.OnStateChanged += HandleStateChanged; // đăng ký listener
+        stateMachine.OnStateChanged += HandleStateChanged;
     }
 
-    // Update được dùng để bắt input mỗi frame
     void Update()
     {
-        moveInput = inputActions.Player.Move.ReadValue<Vector2>();
+        ReadInput();
         bool isWalking = Mathf.Abs(moveInput.x) > 0.1f;
 
-        // if (isGrounded && isWalking)
-        //     stateMachine.CurrentState = PlayerState.Walking;
-        // else if (isGrounded && !isWalking)
-        //     stateMachine.CurrentState = PlayerState.Idle;
-
+        if (isWalking && stateMachine.CurrentState != PlayerState.Walking)
+            stateMachine.CurrentState = PlayerState.Walking;
+        else if (!isWalking && stateMachine.CurrentState != PlayerState.Idle)
+            stateMachine.CurrentState = PlayerState.Idle;
 
         if ((isWalking && moveInput.x > 0 && transform.localScale.x < 0) ||
             (isWalking && moveInput.x < 0 && transform.localScale.x > 0))
-        {
             FlipCharacter();
-        }
 
+        HandleJumpInput();
+    }
 
+    void ReadInput()
+    {
+        moveInput = inputActions.Player.Move.ReadValue<Vector2>();
+    }
+
+    void HandleJumpInput()
+    {
         if (inputActions.Player.Jump.triggered && isGrounded)
         {
+            Debug.Log($"[Jump Input] Trigger pressed — isGrounded={isGrounded}");
             jumpRequested = true;
-        }
-
-        if (inputActions.Player.Attack.triggered)
-        {
-            //Debug.Log("Attack Triggered!");
-            stateMachine.CurrentState = PlayerState.Attacking;
+            stateMachine.CurrentState = PlayerState.Jumping;
         }
     }
 
-    // FixedUpdate được dùng để áp dụng các thay đổi vật lý
     void FixedUpdate()
     {
-        // Luôn cập nhật vận tốc ngang dựa trên input đọc được từ Update()
         rb.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb.linearVelocity.y);
 
-        // 4. Nếu có yêu cầu nhảy, thực hiện nhảy và tắt cờ đi
         if (jumpRequested)
         {
-            Debug.Log("Jump Triggered!");
-            // Sử dụng AddForce với Impulse để có cú nhảy nảy và tự nhiên hơn
-            // Cách này tốt hơn việc gán trực tiếp vận tốc.
+            Debug.Log($"[Jump] Triggered — isGrounded={isGrounded}, velocityY={rb.linearVelocity.y}");
+            AudioManager.Instance?.PlaySFX("PlayerJump");
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-
-            // Tắt cờ ngay lập tức để không nhảy nhiều lần
             jumpRequested = false;
-            // Đặt isGrounded thành false ngay khi nhảy để ngăn double jump
             isGrounded = false;
         }
     }
 
-    // Xử lý khi va chạm bắt đầu (chạm đất)
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("leaf"))
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            // Kiểm tra xem có đang tiếp xúc từ phía trên không
+            foreach (ContactPoint2D contact in collision.contacts)
+            {
+                Debug.Log($"[CollisionEnter] Ground contact normal={contact.normal}, point={contact.point}");
+                if (contact.normal.y > 0.7f)
+                {
+                    isGrounded = true;
+                    animator.SetBool("isJumping", false);
+                    Debug.Log($"[Grounded] Player landed on {collision.gameObject.name}");
+                    return;
+                }
+            }
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        // Giữ grounded nếu vẫn còn chạm ground
+        if (collision.gameObject.CompareTag("Ground"))
+        {
             foreach (ContactPoint2D contact in collision.contacts)
             {
                 if (contact.normal.y > 0.7f)
@@ -105,72 +111,50 @@ public class PlayerController2D : MonoBehaviour
         }
     }
 
-    // Xử lý khi va chạm kết thúc (rời khỏi đất)
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("leaf"))
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            isGrounded = false;
+            Debug.Log($"[CollisionExit] Left ground: {collision.gameObject.name}");
+            // Không set false liền — chờ kiểm tra lại frame sau
+            Invoke(nameof(ResetGrounded), 0.02f);
         }
+    }
+
+    private void ResetGrounded()
+    {
+        // Nếu sau 0.02s không có OnCollisionStay, thì mới thực sự rời đất
+        isGrounded = false;
     }
 
     private void FlipCharacter()
     {
-
         Vector3 scale = transform.localScale;
         scale.x = Mathf.Sign(moveInput.x) * Mathf.Abs(scale.x);
         transform.localScale = scale;
-
-    }
-
-    public void OnAttackAnimationEnd()
-    {
-        //Debug.Log("Triggered Attack Ended Event");
-
-        // Quay lại Idle sau khi attack xong
-        if (stateMachine.CurrentState == PlayerState.Attacking)
-        {
-            //Debug.Log("Attack Animation Ended");
-            stateMachine.CurrentState = PlayerState.Idle;
-        }
     }
 
     private void HandleStateChanged(PlayerState oldState, PlayerState newState)
     {
-        Debug.Log($"Player changed from {oldState} to {newState}");
-
         switch (newState)
         {
             case PlayerState.Idle:
                 animator.SetBool("isWalking", false);
-                animator.SetBool("isAttacking", false);
                 break;
             case PlayerState.Walking:
                 animator.SetBool("isWalking", true);
-                animator.SetBool("isAttacking", false);
                 break;
-            case PlayerState.Attacking:
-                animator.SetBool("isAttacking", true);
-                animator.SetBool("isWalking", false);
+            case PlayerState.Jumping:
+                animator.SetBool("isJumping", true);
                 break;
         }
     }
 
-    private void OnEnable()
-    {
-        // Kích hoạt input map khi object bật
-        inputActions.Player.Enable();
-    }
-
-    private void OnDisable()
-    {
-        // Tắt input map khi object tắt (rời scene hoặc bị disable)
-        inputActions.Player.Disable();
-    }
+    private void OnEnable() => inputActions.Player.Enable();
+    private void OnDisable() => inputActions.Player.Disable();
 
     private void OnDestroy()
     {
-        // Giải phóng hoàn toàn tài nguyên input
         inputActions.Dispose();
         stateMachine.OnStateChanged -= HandleStateChanged;
     }

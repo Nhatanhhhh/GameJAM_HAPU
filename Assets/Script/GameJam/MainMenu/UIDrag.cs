@@ -15,7 +15,8 @@ public class UIDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public void OnBeginDrag(PointerEventData eventData)
     {
         // Khi bắt đầu kéo
-        Debug.Log("Bắt đầu kéo lá sen.");
+        // Debug.Log("Bắt đầu kéo lá sen.");
+        AudioManager.Instance?.PlaySFX("leafDragStartSFX");
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -26,6 +27,6 @@ public class UIDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("Kéo xong lá sen.");
+        //Debug.Log("Kéo xong lá sen.");
     }
 }
